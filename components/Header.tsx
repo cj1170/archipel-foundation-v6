@@ -149,7 +149,7 @@ export default function Header() {
                 onMouseLeave={closeDropdown}
               >
                 {DROPDOWN_LINKS.map((item) => (
-                  <Link
+                  <a
                     key={item.href}
                     href={item.href}
                     role="menuitem"
@@ -166,14 +166,14 @@ export default function Header() {
                     <span className="block font-body text-body-sm normal-case tracking-normal text-sand mt-0.5">
                       {item.description}
                     </span>
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>
 
             {/* Direct links */}
             {NAV_LINKS.map((link) => (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
                 className={`transition-colors duration-base hover:text-linen ${
@@ -181,7 +181,7 @@ export default function Header() {
                 }`}
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
           </nav>
 
@@ -237,7 +237,7 @@ export default function Header() {
         >
           <nav className="flex flex-col px-6 pt-8 gap-1">
             {MOBILE_LINKS.map((link) => (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
                 className={`block py-4 font-label text-label uppercase tracking-[0.08em] border-b border-steel-blue/20 transition-colors duration-base ${
@@ -247,7 +247,7 @@ export default function Header() {
                 }`}
               >
                 {link.label}
-              </Link>
+              </a>
             ))}
 
             {/* CTA mobile */}

@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import PioneerForm from './PioneerForm';
 
 const NAV_LINKS = [
@@ -41,12 +40,12 @@ export default function Footer() {
             <ul className="flex flex-col gap-3">
               {NAV_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link
+                  <a
                     href={link.href}
                     className="font-label text-label uppercase tracking-[0.08em] text-linen/80 hover:text-linen transition-colors"
                   >
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>
@@ -60,12 +59,12 @@ export default function Footer() {
             <ul className="flex flex-col gap-3">
               {LEGAL_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link
+                  <a
                     href={link.href}
                     className="font-label text-label uppercase tracking-[0.08em] text-linen/80 hover:text-linen transition-colors"
                   >
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
               <li>
