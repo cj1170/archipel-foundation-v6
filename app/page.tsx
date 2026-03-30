@@ -21,6 +21,14 @@ export default function Home() {
           ═══════════════════════════════════════════ */}
       <Section variant="slate" padding="hero" className="min-h-screen lg:min-h-[90vh] flex items-center">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+          {/* Picto Foundation */}
+          <img
+            src="/images/picto-foundation.png"
+            alt=""
+            aria-hidden="true"
+            className="w-32 h-32 lg:w-48 lg:h-48 mb-8"
+          />
+
           {/* Triptyque */}
           <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-6">
             SOIGNER • RELIER • TRANSFORMER

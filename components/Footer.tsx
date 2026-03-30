@@ -23,9 +23,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Col 1 : Logo + baseline */}
           <div>
-            <span className="font-heading text-h3 tracking-[-0.02em] text-sand">
-              ARCHIPEL
-            </span>
+            <img
+              src="/images/logo-footer.png"
+              alt="ARCHIPEL Foundation"
+              className="h-16 w-auto"
+            />
             <p className="mt-4 font-body text-body-sm italic text-sand leading-[1.6]">
               Réinventer la santé.<br />Pour qu&apos;elle dure.
             </p>

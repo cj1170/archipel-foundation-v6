@@ -90,15 +90,12 @@ export default function Header() {
       <header className="sticky top-0 z-50 bg-slate_f/95 backdrop-blur-sm">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between h-[60px] lg:h-[72px]">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 shrink-0">
-            {/* Desktop: picto + text */}
-            <span className="hidden lg:inline font-heading text-h4 tracking-[-0.02em] text-sand">
-              ARCHIPEL
-            </span>
-            {/* Mobile: picto only */}
-            <span className="lg:hidden font-heading text-h4 tracking-[-0.02em] text-sand">
-              A
-            </span>
+          <Link href="/" className="flex items-center shrink-0">
+            <img
+              src="/images/logo-header.png"
+              alt="ARCHIPEL Foundation"
+              className="h-6 lg:h-8 w-auto"
+            />
           </Link>
 
           {/* ── Desktop Navigation ── */}
