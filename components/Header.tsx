@@ -116,7 +116,7 @@ export default function Header() {
             >
               <button
                 type="button"
-                className={`flex items-center gap-1 transition-colors duration-base hover:text-linen ${
+                className={`flex items-center gap-1 font-label text-label uppercase tracking-[0.08em] transition-colors duration-base hover:text-linen ${
                   isVisionActive ? 'text-linen' : ''
                 }`}
                 aria-expanded={dropdownOpen}
