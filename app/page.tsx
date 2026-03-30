@@ -65,9 +65,9 @@ export default function Home() {
           SECTION 2 — LE CONSTAT
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16 items-center">
           {/* Colonne chiffre — mobile first */}
-          <div className="lg:col-span-2 lg:order-last bg-slate_f rounded-lg p-8 text-center">
+          <div className="lg:col-span-2 lg:order-last self-center bg-slate_f rounded-lg p-8 text-center">
             <span className="font-heading text-hero text-sand block mb-2">76%</span>
             <p className="font-body text-body text-linen/80 mb-4">
               des personnes interrogées gèrent seules la coordination de leur santé.
@@ -106,9 +106,13 @@ export default function Home() {
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* Golden quote */}
           <blockquote className="font-heading text-h2 lg:text-h1 tracking-[-0.02em] text-linen mb-12 max-w-3xl">
-            Le médecin est le confident de la maladie.
+            Le médecin
             <br />
-            <span className="text-sand">ARCHIPEL est le confident de la santé.</span>
+            est le confident de la maladie.
+            <br />
+            <span className="text-sand">ARCHIPEL</span>
+            <br />
+            <span className="text-sand">est le confident de la santé.</span>
           </blockquote>
 
           {/* Séparateur */}
@@ -151,9 +155,9 @@ export default function Home() {
           SECTION 4 — CE QUE NOUS CONSTRUISONS
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-stretch">
           {/* Colonne texte */}
-          <div>
+          <div className="flex flex-col">
             <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
               Ce que nous construisons
             </span>
@@ -185,7 +189,7 @@ export default function Home() {
 
           {/* Colonne schéma — placeholder */}
           <div className="order-first lg:order-last flex items-center justify-center">
-            <div className="w-full max-w-sm mx-auto bg-steel-blue/10 border border-steel-blue/20 rounded-lg p-8 text-center">
+            <div className="w-full mx-auto bg-steel-blue/15 border border-steel-blue/20 rounded-lg py-12 px-8 text-center flex flex-col items-center justify-center h-full">
               <div className="font-heading text-h4 tracking-[-0.02em] text-slate_f mb-4">ARCHIPEL FOUNDATION</div>
               <div className="w-px h-12 bg-sand/40 mx-auto mb-2" />
               <div className="font-label text-caption uppercase tracking-[0.08em] text-sand mb-2">
