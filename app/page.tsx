@@ -93,7 +93,8 @@ export default function Home() {
             </p>
             <p className="font-body text-body leading-[1.6] text-slate_f/80">
               Le système de santé est conçu pour intervenir quand vous êtes malade.
-              Pas pour créer les conditions de votre santé quand tout semble encore aller.
+              Pas pour créer les conditions de votre santé quand tout semble encore aller
+              ou que vos symptômes ne correspondent pas à la connaissance du spécialiste.
             </p>
           </div>
         </div>
@@ -155,50 +156,42 @@ export default function Home() {
           SECTION 4 — CE QUE NOUS CONSTRUISONS
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-stretch">
-          {/* Colonne texte */}
-          <div className="flex flex-col">
-            <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
-              Ce que nous construisons
+        <div className="max-w-3xl mx-auto">
+          <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+            Ce que nous construisons
+          </span>
+          <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
+            Un modèle à deux corps.
+          </h2>
+          <p className="font-body text-body leading-[1.6] text-slate_f/80 mb-10">
+            ARCHIPEL Foundation supervise le développement d&apos;un service de santé préventive
+            opéré par ARCHIPEL LIFE, sa structure opérationnelle.
+          </p>
+
+          {/* Card Foundation */}
+          <Card
+            variant="principe"
+            title="ARCHIPEL Foundation"
+            label="Fonds de dotation en création"
+            description="La mission, l'éthique, la recherche. Fonds de dotation en création, futur Fondation d'utilité publique. Aucun intérêt commercial."
+          />
+
+          {/* Connecteur visuel */}
+          <div className="flex flex-col items-center py-1">
+            <div className="w-px h-12 bg-sand/40" />
+            <span className="font-label text-caption uppercase tracking-[0.12em] text-sand py-2">
+              supervise &amp; finance
             </span>
-            <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
-              Un modèle à deux corps.
-            </h2>
-            <p className="font-body text-body leading-[1.6] text-slate_f/80 mb-8">
-              ARCHIPEL Foundation supervise le développement d&apos;un service de santé préventive
-              opéré par ARCHIPEL LIFE, sa structure opérationnelle.
-            </p>
-
-            {/* Card Foundation */}
-            <Card
-              variant="principe"
-              title="ARCHIPEL Foundation"
-              label="Fonds de dotation en création"
-              description="La mission, l'éthique, la recherche. Fonds de dotation en création, futur Fondation d'utilité publique. Aucun intérêt commercial."
-              className="mb-4"
-            />
-
-            {/* Card Life */}
-            <Card
-              variant="feature"
-              title="ARCHIPEL LIFE"
-              label="SAS en cours de création"
-              description="Le service opérationnel. Iris, les Sherpas, La Guilde, le parcours Odyssea. SAS à mission dont les résultats financent la Fondation."
-            />
+            <div className="w-px h-12 bg-sand/40" />
           </div>
 
-          {/* Colonne schéma — placeholder */}
-          <div className="order-first lg:order-last flex items-center justify-center">
-            <div className="w-full mx-auto bg-steel-blue/15 border border-steel-blue/20 rounded-lg py-12 px-8 text-center flex flex-col items-center justify-center h-full">
-              <div className="font-heading text-h4 tracking-[-0.02em] text-slate_f mb-4">ARCHIPEL FOUNDATION</div>
-              <div className="w-px h-12 bg-sand/40 mx-auto mb-2" />
-              <div className="font-label text-caption uppercase tracking-[0.08em] text-sand mb-2">
-                supervise &amp; finance
-              </div>
-              <div className="w-px h-12 bg-sand/40 mx-auto mb-4" />
-              <div className="font-heading text-h4 tracking-[-0.02em] text-steel-blue">ARCHIPEL LIFE</div>
-            </div>
-          </div>
+          {/* Card Life */}
+          <Card
+            variant="feature"
+            title="ARCHIPEL LIFE"
+            label="SAS en cours de création"
+            description="Le service opérationnel. Iris, les Sherpas, La Guilde, le parcours Odyssea. SAS à mission dont les résultats financent la Fondation."
+          />
         </div>
       </Section>
 
