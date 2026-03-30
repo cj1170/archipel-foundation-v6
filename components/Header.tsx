@@ -94,7 +94,7 @@ export default function Header() {
             <img
               src="/images/logo-header.png"
               alt="ARCHIPEL Foundation"
-              className="h-6 lg:h-8 w-auto"
+              className="h-8 lg:h-10 w-auto"
             />
           </Link>
 
