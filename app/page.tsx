@@ -186,13 +186,13 @@ export default function Home() {
           {/* Colonne schéma — placeholder */}
           <div className="order-first lg:order-last flex items-center justify-center">
             <div className="w-full max-w-sm mx-auto bg-steel-blue/10 border border-steel-blue/20 rounded-lg p-8 text-center">
-              <div className="font-heading text-h4 tracking-[-0.02em] text-slate_f mb-4">Foundation</div>
+              <div className="font-heading text-h4 tracking-[-0.02em] text-slate_f mb-4">ARCHIPEL FOUNDATION</div>
               <div className="w-px h-12 bg-sand/40 mx-auto mb-2" />
               <div className="font-label text-caption uppercase tracking-[0.08em] text-sand mb-2">
                 supervise &amp; finance
               </div>
               <div className="w-px h-12 bg-sand/40 mx-auto mb-4" />
-              <div className="font-heading text-h4 tracking-[-0.02em] text-steel-blue">LIFE</div>
+              <div className="font-heading text-h4 tracking-[-0.02em] text-steel-blue">ARCHIPEL LIFE</div>
             </div>
           </div>
         </div>
@@ -216,21 +216,18 @@ export default function Home() {
             variant="feature"
             onDark
             title="Comité d'Éthique"
-            label="Comité d'Éthique"
             description="9 membres indépendants. Droit de veto absolu sur toute décision stratégique, technologique ou opérationnelle."
           />
           <Card
             variant="feature"
             onDark
-            title="CIES"
-            label="CIES"
-            description="Comité Interdisciplinaire d'Expertise Scientifique. 9 membres, présidé par le Chief Medical Officer. Garant de la rigueur scientifique."
+            title="Comité Interdisciplinaire d'Expertise Scientifique (CIES)"
+            description="9 membres, présidé par le Chief Medical Officer. Garant de la rigueur scientifique."
           />
           <Card
             variant="feature"
             onDark
             title="9 Principes Fondateurs"
-            label="9 Principes Fondateurs"
             description="Inscrits dans la Charte Fondatrice v2.0. Ils définissent ce qu'ARCHIPEL s'engage à faire et à ne jamais faire."
             href="/mission/9-principes"
           />
