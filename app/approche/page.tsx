@@ -1,0 +1,278 @@
+import { Metadata } from 'next';
+import Section from '@/components/Section';
+import Button from '@/components/Button';
+
+export const metadata: Metadata = {
+  title: 'Notre Approche',
+  description:
+    'L\u2019approche ARCHIPEL repose sur le cadre TÊTE\u2022CŒUR\u2022CORPS + MILIEU, un compagnon IA (Iris), des Sherpas humains et La Guilde de praticiens certifiés.',
+  openGraph: {
+    images: [{ url: '/og/approche.jpg', width: 1200, height: 630 }],
+  },
+};
+
+const ARKE_DIMENSIONS = [
+  'Médicale',
+  'Fonctionnelle',
+  'Psychologique',
+  'Comportementale',
+  'Contexte biographique',
+  'Milieu de vie',
+];
+
+export default function ApprochePage() {
+  return (
+    <>
+      {/* ═══════════════════════════════════════════
+          SECTION 1 — HERO APPROCHE
+          ═══════════════════════════════════════════ */}
+      <Section variant="slate" padding="hero">
+        <div className="max-w-3xl mx-auto text-center">
+          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-6 block">
+            Notre approche
+          </span>
+
+          <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">
+            Créer les conditions de votre santé.
+            <br />
+            <span className="text-sand">
+              Pas seulement traiter vos symptômes.
+            </span>
+          </h1>
+
+          <p className="font-body text-h4 text-linen/70">
+            Un compagnon IA. Des coachs humains. Un réseau de praticiens
+            coordonnés. Un parcours sur-mesure. Et vous, au centre.
+          </p>
+        </div>
+      </Section>
+
+      {/* ═══════════════════════════════════════════
+          SECTION 2 — LE CADRE TÊTE•CŒUR•CORPS + MILIEU
+          ═══════════════════════════════════════════ */}
+      <Section variant="linen" padding="default">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+          {/* Visuel — à gauche */}
+          <div className="flex items-center justify-center">
+            <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full border-2 border-dashed border-steel-blue/30 flex items-center justify-center">
+              <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue/40">
+                Schéma T&bull;C&bull;C + Milieu
+              </span>
+            </div>
+          </div>
+
+          {/* Texte — à droite */}
+          <div>
+            <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+              Le cadre
+            </span>
+            <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
+              TÊTE&bull;CŒUR&bull;CORPS : trois dimensions, un même être.
+            </h2>
+            <div className="space-y-4 font-body text-body leading-[1.6] text-slate_f/80">
+              <p>
+                La santé se construit dans la cohérence entre la dimension
+                cognitive et mentale (TÊTE), la dimension émotionnelle et
+                relationnelle (CŒUR), et la dimension physique et corporelle
+                (CORPS). Aucune ne peut être traitée isolément sans réduire
+                l&apos;efficacité du tout.
+              </p>
+              <p>
+                Ces trois dimensions s&apos;enracinent dans un MILIEU : vos
+                rythmes circadiens, votre relation à la nature, la qualité de
+                votre cadre de vie, les saisons qui rythment votre existence. Le
+                MILIEU n&apos;est pas un quatrième pilier. Il est le sol dans
+                lequel tout s&apos;enracine.
+              </p>
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* ═══════════════════════════════════════════
+          SECTION 3 — LES TROIS PILIERS DE L'ÉCOSYSTÈME
+          ═══════════════════════════════════════════ */}
+      <Section variant="steel" padding="default">
+        <div className="text-center mb-12">
+          <span className="font-label text-label uppercase tracking-[0.12em] text-tete mb-4 block">
+            L&apos;écosystème
+          </span>
+          <h2 className="font-heading text-h2 tracking-[-0.02em] text-linen max-w-2xl mx-auto">
+            Trois piliers. Un seul parcours.
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {/* Card Iris */}
+          <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
+            <div className="w-10 h-10 rounded-full bg-tete/20 flex items-center justify-center mb-4">
+              <span className="w-4 h-4 rounded-full bg-tete" />
+            </div>
+            <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
+              Iris, votre compagnon de santé
+            </h3>
+            <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
+              Iris est un compagnon IA, disponible 24h/24. Elle écoute, observe,
+              relie et oriente. Elle ne pose pas de diagnostic, ne prescrit rien,
+              ne remplace aucun professionnel de santé. Elle respecte vos rythmes
+              et observe des périodes de silence intentionnel.
+            </p>
+            <a
+              href="/approche/iris"
+              className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue hover:text-slate_f transition-colors"
+            >
+              Découvrir Iris &rarr;
+            </a>
+          </div>
+
+          {/* Card Sherpas */}
+          <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
+            <div className="w-10 h-10 rounded-full bg-coeur/20 flex items-center justify-center mb-4">
+              <span className="w-4 h-4 rounded-full bg-coeur" />
+            </div>
+            <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
+              Les Sherpas, le lien humain
+            </h3>
+            <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
+              Des coachs santé formés et certifiés qui vous accompagnent dans la
+              durée. Le Sherpa observe vos rythmes, propose des ajustements, et
+              reste votre premier interlocuteur humain dans le parcours.
+            </p>
+            <a
+              href="/approche/sherpas"
+              className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue hover:text-slate_f transition-colors"
+            >
+              Découvrir les Sherpas &rarr;
+            </a>
+          </div>
+
+          {/* Card Guilde */}
+          <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
+            <div className="w-10 h-10 rounded-full bg-corps/20 flex items-center justify-center mb-4">
+              <span className="w-4 h-4 rounded-full bg-corps" />
+            </div>
+            <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
+              La Guilde, la coordination
+            </h3>
+            <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
+              Un réseau de praticiens certifiés, coordonnés par Iris et les
+              Sherpas, avec primauté décisionnelle médicale. Médecins,
+              ostéopathes, naturopathes, psychologues, coachs : chaque praticien
+              voit l&apos;ensemble.
+            </p>
+            <a
+              href="/guilde"
+              className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue hover:text-slate_f transition-colors"
+            >
+              Découvrir La Guilde &rarr;
+            </a>
+          </div>
+        </div>
+      </Section>
+
+      {/* ═══════════════════════════════════════════
+          SECTION 4 — LE PARCOURS ODYSSEA
+          ═══════════════════════════════════════════ */}
+      <Section variant="linen" padding="default">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+          <div>
+            <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+              Le parcours
+            </span>
+            <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
+              Odyssea : un parcours en spirale, pas une ligne droite.
+            </h2>
+            <div className="space-y-4 font-body text-body leading-[1.6] text-slate_f/80">
+              <p>
+                Le parcours Odyssea relie Iris, les Sherpas et La Guilde en un
+                parcours de transformation mesurable. Il alterne des phases
+                d&apos;activation avec des phases de consolidation, adaptées à
+                vos rythmes et à vos saisons.
+              </p>
+              <p>
+                Tout commence par ARKÉ, le bilan d&apos;entrée. Six dimensions
+                évaluées : médicale, fonctionnelle, psychologique,
+                comportementale, contexte biographique, et milieu de vie.
+              </p>
+              <p>
+                Le parcours Odyssea se construit selon vos besoins, tout au long
+                de votre vie. Iris et votre Sherpa orchestrent les services et
+                vous accompagnent auprès des praticiens, selon vos objectifs.
+              </p>
+            </div>
+
+            {/* 6 dimensions ARKÉ */}
+            <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-3">
+              {ARKE_DIMENSIONS.map((dim) => (
+                <span
+                  key={dim}
+                  className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue bg-steel-blue/10 px-3 py-2 rounded-sm text-center"
+                >
+                  {dim}
+                </span>
+              ))}
+            </div>
+
+            <a
+              href="/approche/odyssea"
+              className="inline-block mt-8 font-label text-label uppercase tracking-[0.08em] text-steel-blue hover:text-slate_f transition-colors"
+            >
+              Découvrir le parcours Odyssea &rarr;
+            </a>
+          </div>
+
+          {/* Placeholder visuel spirale */}
+          <div className="order-first lg:order-last">
+            <div className="aspect-square max-w-sm mx-auto bg-steel-blue/10 rounded-full flex items-center justify-center">
+              <span className="font-label text-label text-steel-blue/50">
+                Spirale Odyssea
+              </span>
+            </div>
+          </div>
+        </div>
+      </Section>
+
+      {/* ═══════════════════════════════════════════
+          SECTION 5 — CTA APPROCHE
+          ═══════════════════════════════════════════ */}
+      <Section variant="slate" padding="compact">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="font-heading text-h2 lg:text-h1 tracking-[-0.02em] text-linen mb-8">
+            Vous voulez être parmi les premiers à vivre cette approche ?
+          </h2>
+
+          <Button variant="accent" size="lg" href="/#pionniers">
+            Rejoindre les pionniers
+          </Button>
+
+          <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
+            <a
+              href="/approche/fondements"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+            >
+              Fondements Scientifiques &rarr;
+            </a>
+            <a
+              href="/approche/iris"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+            >
+              Iris, le compagnon de santé &rarr;
+            </a>
+            <a
+              href="/approche/sherpas"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+            >
+              Les Sherpas &rarr;
+            </a>
+            <a
+              href="/approche/odyssea"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+            >
+              Le Parcours Odyssea &rarr;
+            </a>
+          </div>
+        </div>
+      </Section>
+    </>
+  );
+}
