@@ -19,7 +19,7 @@ export default function Home() {
       {/* ═══════════════════════════════════════════
           SECTION 1 — HERO
           ═══════════════════════════════════════════ */}
-      <Section variant="slate" padding="hero" className="min-h-screen lg:min-h-[90vh] flex items-center">
+      <Section variant="slate" padding="hero" className="min-h-[85vh] flex items-center">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* Picto Foundation */}
           <img
@@ -30,7 +30,7 @@ export default function Home() {
           />
 
           {/* Triptyque */}
-          <span className="font-label text-body-sm lg:text-body uppercase tracking-[0.12em] text-sand mb-4">
+          <span className="font-label text-body-sm lg:text-body uppercase tracking-[0.12em] text-sand mb-6">
             SOIGNER • RELIER • TRANSFORMER
           </span>
 

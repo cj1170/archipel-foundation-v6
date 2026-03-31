@@ -100,13 +100,13 @@ export default function Header() {
             <img
               src="/images/logo-header.png"
               alt="ARCHIPEL Foundation"
-              className="h-7 lg:h-9 w-auto"
+              className="h-6 lg:h-8 w-auto"
             />
           </Link>
 
           {/* ── Desktop Navigation ── */}
           <nav
-            className="hidden lg:flex items-center gap-8 font-label text-label uppercase tracking-[0.08em] text-sand"
+            className="hidden lg:flex items-center gap-5 font-label text-label uppercase tracking-[0.08em] text-sand whitespace-nowrap"
             role="navigation"
             aria-label="Navigation principale"
           >
@@ -194,7 +194,7 @@ export default function Header() {
           {/* CTA desktop */}
           <Link
             href="#pionniers"
-            className="hidden lg:inline-flex items-center px-5 py-2.5 bg-sand text-slate_f font-label text-label uppercase tracking-[0.08em] rounded-full hover:bg-[#C8B496] active:scale-[0.98] transition-all duration-base"
+            className="hidden lg:inline-flex items-center px-4 py-2 bg-sand text-slate_f font-label text-caption uppercase tracking-[0.08em] rounded-full hover:bg-[#C8B496] active:scale-[0.98] transition-all duration-base whitespace-nowrap"
           >
             Rejoindre les pionniers
           </Link>
