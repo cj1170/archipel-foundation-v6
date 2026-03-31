@@ -19,7 +19,7 @@ export default function Home() {
       {/* ═══════════════════════════════════════════
           SECTION 1 — HERO
           ═══════════════════════════════════════════ */}
-      <Section variant="slate" padding="hero" className="min-h-[85vh] flex items-center">
+      <Section variant="slate" padding="hero" className="min-h-[80vh] flex items-center justify-center">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* Picto Foundation */}
           <img
@@ -54,7 +54,7 @@ export default function Home() {
           </Button>
 
           {/* Indicateur de scroll */}
-          <div className="mt-16 animate-bounce">
+          <div className="mt-8 animate-bounce">
             <svg
               className="w-6 h-6 text-sand/50"
               fill="none"
