@@ -52,7 +52,7 @@ const AXES: Axe[] = [
     title: 'Éducation',
     status: 'projete',
     description:
-      'La Salutogénèse n\u2019a jamais atteint le grand public sous une forme opérationnelle. ARCHIPEL finance des programmes éducatifs pour les enfants, les femmes face aux angles morts du système, et les populations les plus éloignées d\u2019un parcours coordonné.',
+      'La Salutogénèse n\u2019a jamais atteint le grand public sous une forme opérationnelle. ARCHIPEL finance des programmes éducatifs notamment pour les enfants ou les femmes majoritairement seuls face aux angles morts du système, et pour les populations les plus éloignées d\u2019un parcours coordonné.',
   },
   {
     title: 'Recherche',
@@ -64,13 +64,13 @@ const AXES: Axe[] = [
     title: 'Plaidoyer',
     status: 'projete',
     description:
-      'Une fondation qui influence les systèmes transforme. ARCHIPEL porte des positions sur l\u2019intégration de la coordination préventive dans les politiques de remboursement et la reconnaissance des approches complémentaires validées.',
+      'Une fondation qui influence les systèmes doit accompagner leur transformation. ARCHIPEL porte notamment des positions sur l\u2019intégration de la coordination préventive dans les politiques de remboursement et la validation et la reconnaissance d\u2019approches complémentaires.',
   },
   {
     title: 'Souveraineté des données',
     status: 'construction',
     description:
-      'Les données de santé restent la propriété des personnes qui les produisent. Pas de la plateforme, pas des partenaires, pas des financeurs. Ce n\u2019est pas une clause de conformité. C\u2019est une position de fond.',
+      'La Santé est un Bien Commun. Aussi les données de santé doivent rester la propriété des personnes qui les produisent et non devenir un pouvoir d\u2019influence au service de la plateforme, des partenaires ou des financeurs. Ce n\u2019est pas une clause de conformité. C\u2019est une position de fond.',
   },
 ];
 
@@ -87,16 +87,13 @@ export default function MissionPage() {
           </span>
 
           <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">
-            ARCHIPEL n&apos;est pas une réponse à l&apos;échec de la médecine.
-            <br />
-            <span className="text-sand">
-              C&apos;est une réponse à son incomplétude.
-            </span>
+            ARCHIPEL est une réponse à l&apos;approche fragmentée de la santé.
           </h1>
 
           <p className="font-body text-h4 text-linen/70 mb-8">
-            Une fondation qui ne soigne pas. Qui crée les conditions pour que la
-            santé dure.
+            Une fondation qui crée les conditions harmonieuses pour que la santé
+            dure. ARCHIPEL ne soigne pas, ARCHIPEL relie et transforme le soin
+            et le parcours de santé
           </p>
 
           <p className="font-body text-body-sm text-sand/60 italic">
