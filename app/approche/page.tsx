@@ -34,10 +34,6 @@ export default function ApprochePage() {
 
           <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">
             Créer les conditions de votre santé.
-            <br />
-            <span className="text-sand">
-              Pas seulement traiter vos symptômes.
-            </span>
           </h1>
 
           <p className="font-body text-h4 text-linen/70">
@@ -112,10 +108,13 @@ export default function ApprochePage() {
               Iris, votre compagnon de santé
             </h3>
             <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
-              Iris est un compagnon IA, disponible 24h/24. Elle écoute, observe,
-              relie et oriente. Elle ne pose pas de diagnostic, ne prescrit rien,
-              ne remplace aucun professionnel de santé. Elle respecte vos rythmes
-              et observe des périodes de silence intentionnel.
+              Iris est votre compagnon IA, disponible 24h/24. Elle écoute,
+              observe, relie, oriente et archive. Elle se souvient et augmente
+              vos capacités de décision et les capacités de votre Sherpa pour
+              créer votre parcours sur-mesure. Elle respecte vos rythmes et
+              observe des périodes de silence intentionnel. Mais elle ne pose pas
+              de diagnostic, ne prescrit rien, ne remplace aucun professionnel
+              de santé.
             </p>
             <a
               href="/approche/iris"
@@ -135,7 +134,8 @@ export default function ApprochePage() {
             </h3>
             <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
               Des coachs santé formés et certifiés qui vous accompagnent dans la
-              durée. Le Sherpa observe vos rythmes, propose des ajustements, et
+              durée. Le Sherpa observe vos rythmes, écoute votre histoire, lit
+              les signaux subtils et les non-dits, propose des ajustements, et
               reste votre premier interlocuteur humain dans le parcours.
             </p>
             <a
@@ -158,7 +158,8 @@ export default function ApprochePage() {
               Un réseau de praticiens certifiés, coordonnés par Iris et les
               Sherpas, avec primauté décisionnelle médicale. Médecins,
               ostéopathes, naturopathes, psychologues, coachs : chaque praticien
-              voit l&apos;ensemble.
+              voit l&apos;ensemble et défend une approche intégrative basée sur
+              le lien et la co-construction de votre parcours de santé.
             </p>
             <a
               href="/guilde"
