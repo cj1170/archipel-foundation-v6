@@ -37,8 +37,14 @@ export default function Header() {
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [activePath, setActivePath] = useState('');
   const dropdownTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  // Sync active path after hydration to avoid server/client mismatch
+  useEffect(() => {
+    setActivePath(pathname);
+  }, [pathname]);
 
   // Lock body scroll when mobile menu is open
   useEffect(() => {
@@ -75,7 +81,7 @@ export default function Header() {
   }, []);
 
   const isActive = (href: string) =>
-    pathname === href || pathname.startsWith(href + '/');
+    activePath === href || activePath.startsWith(href + '/');
 
   const isVisionActive =
     isActive('/mission') || isActive('/approche');
