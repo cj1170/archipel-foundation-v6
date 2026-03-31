@@ -26,11 +26,11 @@ export default function Home() {
             src="/images/picto-foundation.png"
             alt=""
             aria-hidden="true"
-            className="w-32 h-32 lg:w-48 lg:h-48 mb-8"
+            className="w-32 h-32 lg:w-48 lg:h-48 mb-4"
           />
 
           {/* Triptyque */}
-          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-6">
+          <span className="font-label text-body-sm lg:text-body uppercase tracking-[0.12em] text-sand mb-4">
             SOIGNER • RELIER • TRANSFORMER
           </span>
 
