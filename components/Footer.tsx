@@ -25,7 +25,7 @@ export default function Footer() {
             <img
               src="/images/logo-footer.png"
               alt="ARCHIPEL Foundation"
-              className="h-20 w-auto"
+              className="h-32 lg:h-40 w-auto"
             />
             <p className="mt-4 font-body text-body-sm italic text-sand leading-[1.6]">
               Réinventer la santé.<br />Pour qu&apos;elle dure.
