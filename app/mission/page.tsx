@@ -11,31 +11,9 @@ export const metadata: Metadata = {
   },
 };
 
-/* ── Status Badge ── */
-function StatusBadge({ status }: { status: 'acte' | 'construction' | 'projete' }) {
-  const styles = {
-    acte: 'bg-corps/20 text-corps',
-    construction: 'bg-sand/20 text-sand',
-    projete: 'bg-tete/20 text-tete',
-  };
-  const labels = {
-    acte: 'ACTE \u2713',
-    construction: 'EN CONSTRUCTION \u25D0',
-    projete: 'PROJETE \u25CB',
-  };
-  return (
-    <span
-      className={`font-label text-caption uppercase tracking-[0.08em] px-2 py-1 rounded-sm ${styles[status]}`}
-    >
-      {labels[status]}
-    </span>
-  );
-}
-
 /* ── Données des 5 axes ── */
 interface Axe {
   title: string;
-  status: 'acte' | 'construction' | 'projete';
   description: string;
   href?: string;
 }
@@ -43,32 +21,27 @@ interface Axe {
 const AXES: Axe[] = [
   {
     title: 'Accessibilité',
-    status: 'construction',
     description:
       'La santé préventive est aujourd\u2019hui structurellement inaccessible à la majorité. ARCHIPEL agit via le Fonds de Bourses et une architecture tarifaire conçue pour que le premium finance l\u2019accès. Ce mécanisme Robin Hood est inscrit dans les statuts.',
     href: '/mission/robin-hood',
   },
   {
     title: 'Éducation',
-    status: 'projete',
     description:
       'La Salutogénèse n\u2019a jamais atteint le grand public sous une forme opérationnelle. ARCHIPEL finance des programmes éducatifs notamment pour les enfants ou les femmes majoritairement seuls face aux angles morts du système, et pour les populations les plus éloignées d\u2019un parcours coordonné.',
   },
   {
     title: 'Recherche',
-    status: 'projete',
     description:
       'Les interactions entre TÊTE, CŒUR et CORPS, l\u2019efficacité du health coaching coordonné, les liens entre cohérence de sens et marqueurs biologiques : ces terrains sont sous-financés. La Fondation les finance via des appels à projets ouverts, en accès libre.',
   },
   {
     title: 'Plaidoyer',
-    status: 'projete',
     description:
       'Une fondation qui influence les systèmes doit accompagner leur transformation. ARCHIPEL porte notamment des positions sur l\u2019intégration de la coordination préventive dans les politiques de remboursement et la validation et la reconnaissance d\u2019approches complémentaires.',
   },
   {
     title: 'Souveraineté des données',
-    status: 'construction',
     description:
       'La Santé est un Bien Commun. Aussi les données de santé doivent rester la propriété des personnes qui les produisent et non devenir un pouvoir d\u2019influence au service de la plateforme, des partenaires ou des financeurs. Ce n\u2019est pas une clause de conformité. C\u2019est une position de fond.',
   },
@@ -127,15 +100,14 @@ export default function MissionPage() {
               key={axe.title}
               className="bg-slate_f text-linen rounded-lg p-6 lg:p-8"
             >
-              <div className="flex items-center gap-3 mb-3">
-                <span className="font-label text-caption text-sand">
+              <div className="flex items-baseline gap-4 mb-3">
+                <span className="font-heading text-h2 tracking-[-0.02em] text-sand">
                   0{i + 1}
                 </span>
-                <StatusBadge status={axe.status} />
+                <h3 className="font-heading text-h3 tracking-[-0.02em] text-linen">
+                  {axe.title}
+                </h3>
               </div>
-              <h3 className="font-heading text-h3 tracking-[-0.02em] text-linen mb-3">
-                {axe.title}
-              </h3>
               <p className="font-body text-body-sm leading-[1.6] text-linen/80">
                 {axe.description}
               </p>
