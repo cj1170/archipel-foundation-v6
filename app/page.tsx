@@ -30,7 +30,7 @@ export default function Home() {
           />
 
           {/* Triptyque */}
-          <span className="font-label text-body-sm lg:text-body uppercase tracking-[0.12em] text-sand mb-8 lg:mb-12">
+          <span className="font-label text-body-sm lg:text-body uppercase tracking-[0.12em] text-sand mb-16 lg:mb-24">
             SOIGNER • RELIER • TRANSFORMER
           </span>
 
