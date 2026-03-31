@@ -19,8 +19,8 @@ export default function Home() {
       {/* ═══════════════════════════════════════════
           SECTION 1 — HERO
           ═══════════════════════════════════════════ */}
-      <Section variant="slate" padding="hero" className="min-h-[80vh] flex items-center justify-start">
-        <div className="flex flex-col items-center text-center max-w-4xl mx-auto pt-8 lg:pt-16">
+      <Section variant="slate" padding="hero" className="min-h-[75vh] flex items-center">
+        <div className="flex flex-col items-center text-center max-w-4xl mx-auto pt-0">
           {/* Picto Foundation */}
           <img
             src="/images/picto-foundation.png"
