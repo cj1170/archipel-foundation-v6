@@ -19,7 +19,13 @@ export default function Home() {
       {/* ═══════════════════════════════════════════
           SECTION 1 — HERO
           ═══════════════════════════════════════════ */}
-      <Section variant="slate" padding="hero" className="min-h-[75vh] flex items-center">
+      <section
+        className="min-h-[75vh] flex items-center relative bg-slate_f text-linen pt-32 pb-16 lg:pt-40 lg:pb-24"
+        style={{ backgroundImage: 'url(/images/hero-accueil.webp)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      >
+        {/* Overlay sombre pour lisibilité */}
+        <div className="absolute inset-0 bg-slate_f/70" aria-hidden="true" />
+        <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto pt-0">
           {/* Picto Foundation */}
           <img
@@ -67,22 +73,26 @@ export default function Home() {
             </svg>
           </div>
         </div>
-      </Section>
+        </div>
+      </section>
 
       {/* ═══════════════════════════════════════════
           SECTION 2 — LE CONSTAT
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16 items-center">
-          {/* Colonne chiffre — mobile first */}
-          <div className="lg:col-span-2 lg:order-last self-center bg-slate_f rounded-lg p-8 text-center">
-            <span className="font-heading text-hero text-sand block mb-2">76%</span>
-            <p className="font-body text-body text-linen/80 mb-4">
-              des personnes interrogées gèrent seules la coordination de leur santé.
-            </p>
-            <p className="font-body text-caption text-sand/60">
-              Enquête ARCHIPEL Foundation, 2025, 662 répondants.
-            </p>
+          {/* Colonne chiffre + image — mobile first */}
+          <div className="lg:col-span-2 lg:order-last self-center space-y-6">
+            <img src="/images/hero-constat.webp" alt="" className="w-full rounded-lg object-cover h-64 lg:h-80" />
+            <div className="bg-slate_f rounded-lg p-8 text-center">
+              <span className="font-heading text-hero text-sand block mb-2">76%</span>
+              <p className="font-body text-body text-linen/80 mb-4">
+                des personnes interrogées gèrent seules la coordination de leur santé.
+              </p>
+              <p className="font-body text-caption text-sand/60">
+                Enquête ARCHIPEL Foundation, 2025, 662 répondants.
+              </p>
+            </div>
           </div>
 
           {/* Colonne texte */}

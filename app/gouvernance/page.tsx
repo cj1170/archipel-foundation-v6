@@ -96,7 +96,7 @@ export default function GouvernancePage() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16 items-center">
           {/* Visuel — à gauche (40%) */}
           <div className="lg:col-span-2 flex items-center justify-center">
-            <img src="/images/picto-foundation.png" alt="ARCHIPEL Foundation" className="w-40 h-40 mx-auto" />
+            <img src="/images/hero-charte.webp" alt="Strates fondatrices" className="w-full rounded-lg object-cover h-64 lg:h-80" />
           </div>
 
           {/* Texte — à droite (60%) */}
