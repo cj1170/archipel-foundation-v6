@@ -386,20 +386,18 @@ export default function GouvernancePage() {
           </div>
 
           {/* Mention fondateur */}
-          <div className="mt-12 pt-8 border-t border-linen/20 flex items-center justify-center gap-4">
-            <div className="text-left">
-              <span className="font-heading text-h4 text-linen block">
-                Cyril Jamot
-              </span>
-              <span className="font-body text-body-sm text-sand">
-                Fondateur et CEO
-              </span>
-            </div>
+          <div className="mt-12 pt-8 border-t border-linen/20 flex flex-col items-center">
+            <span className="font-heading text-h4 text-linen block">
+              Cyril Jamot
+            </span>
+            <span className="font-body text-body-sm text-sand">
+              Fondateur et CEO
+            </span>
             <a
               href="https://www.linkedin.com/in/cyril-jamot/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-label text-caption uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="mt-4 font-label text-caption uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               LinkedIn &rarr;
             </a>
