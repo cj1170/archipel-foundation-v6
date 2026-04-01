@@ -97,9 +97,7 @@ export default function ApprochePage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {/* Card Iris */}
           <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
-            <div className="w-10 h-10 rounded-full bg-tete/20 flex items-center justify-center mb-4">
-              <span className="w-4 h-4 rounded-full bg-tete" />
-            </div>
+            <img src="/images/icon-iris.svg" alt="Iris" className="w-20 h-20 mx-auto mb-4" />
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
               Iris, votre compagnon de santé
             </h3>
@@ -122,9 +120,7 @@ export default function ApprochePage() {
 
           {/* Card Sherpas */}
           <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
-            <div className="w-10 h-10 rounded-full bg-coeur/20 flex items-center justify-center mb-4">
-              <span className="w-4 h-4 rounded-full bg-coeur" />
-            </div>
+            <img src="/images/icon-sherpas.svg" alt="Les Sherpas" className="w-20 h-20 mx-auto mb-4" />
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
               Les Sherpas, le lien humain
             </h3>
@@ -144,9 +140,7 @@ export default function ApprochePage() {
 
           {/* Card Guilde */}
           <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
-            <div className="w-10 h-10 rounded-full bg-corps/20 flex items-center justify-center mb-4">
-              <span className="w-4 h-4 rounded-full bg-corps" />
-            </div>
+            <img src="/images/icon-guilde.svg" alt="La Guilde" className="w-20 h-20 mx-auto mb-4" />
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
               La Guilde, la coordination
             </h3>
