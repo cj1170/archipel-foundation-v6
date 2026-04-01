@@ -44,7 +44,7 @@ export default function Home() {
 
           {/* Sous-titre */}
           <p className="font-body text-body lg:text-h4 text-sand max-w-2xl mb-10">
-            Vous voulez créer les conditions de votre santé ?
+            Vous voulez créer les conditions de votre santé ?<br />
             Nous avons construit l&apos;espace pour le faire.
           </p>
 
@@ -166,7 +166,7 @@ export default function Home() {
           </p>
 
           {/* Schéma Deux Corps */}
-          <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — ARCHIPEL Foundation supervise et finance ARCHIPEL LIFE" className="w-full max-w-2xl mx-auto my-8" />
+          <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — ARCHIPEL Foundation supervise et finance ARCHIPEL LIFE" className="w-full max-w-3xl mx-auto my-8" />
         </div>
       </Section>
 
