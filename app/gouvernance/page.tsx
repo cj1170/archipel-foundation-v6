@@ -396,7 +396,7 @@ export default function GouvernancePage() {
               </span>
             </div>
             <a
-              href="https://www.linkedin.com/in/cyriljamot/"
+              href="https://www.linkedin.com/in/cyril-jamot/"
               target="_blank"
               rel="noopener noreferrer"
               className="font-label text-caption uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
