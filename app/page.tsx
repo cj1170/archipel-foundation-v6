@@ -135,20 +135,9 @@ export default function Home() {
             La science de ce qui crée la santé.
           </h2>
 
-          {/* Visuel T•C•C — placeholder en attendant le composant DotsTCC */}
-          <div className="my-8 lg:my-12 flex items-center justify-center gap-6">
-            <div className="flex flex-col items-center gap-2">
-              <span className="w-4 h-4 rounded-full bg-tete" />
-              <span className="font-label text-caption uppercase tracking-[0.08em] text-tete">Tête</span>
-            </div>
-            <div className="flex flex-col items-center gap-2">
-              <span className="w-4 h-4 rounded-full bg-coeur" />
-              <span className="font-label text-caption uppercase tracking-[0.08em] text-coeur">Cœur</span>
-            </div>
-            <div className="flex flex-col items-center gap-2">
-              <span className="w-4 h-4 rounded-full bg-corps" />
-              <span className="font-label text-caption uppercase tracking-[0.08em] text-corps">Corps</span>
-            </div>
+          {/* Schéma T•C•C + MILIEU simplifié */}
+          <div className="my-8 lg:my-12 flex items-center justify-center">
+            <img src="/images/schema-tcc-milieu-simplifie.svg" alt="TÊTE•CŒUR•CORPS + MILIEU" className="w-full max-w-md mx-auto" />
           </div>
 
           <p className="font-body text-body leading-[1.6] text-linen/80 max-w-2xl">

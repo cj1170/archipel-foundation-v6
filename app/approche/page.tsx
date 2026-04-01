@@ -50,11 +50,7 @@ export default function ApprochePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           {/* Visuel — à gauche */}
           <div className="flex items-center justify-center">
-            <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full border-2 border-dashed border-steel-blue/30 flex items-center justify-center">
-              <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue/40">
-                Schéma T&bull;C&bull;C + Milieu
-              </span>
-            </div>
+            <img src="/images/schema-tcc-milieu-complet.svg" alt="Cadre TÊTE•CŒUR•CORPS + MILIEU — Iris, Les Sherpas, La Guilde" className="w-full max-w-lg mx-auto" />
           </div>
 
           {/* Texte — à droite */}
