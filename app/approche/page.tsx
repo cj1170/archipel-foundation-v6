@@ -99,7 +99,7 @@ export default function ApprochePage() {
           <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
             <img src="/images/icon-iris.svg" alt="Iris" className="w-20 h-20 mx-auto mb-4" />
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
-              Iris, votre compagnon de santé
+              <span className="font-bold">Iris</span><br />votre compagnon de santé
             </h3>
             <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
               Iris est votre compagnon IA, disponible 24h/24. Elle écoute,
@@ -122,7 +122,7 @@ export default function ApprochePage() {
           <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
             <img src="/images/icon-sherpas.svg" alt="Les Sherpas" className="w-20 h-20 mx-auto mb-4" />
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
-              Les Sherpas, le lien humain
+              <span className="font-bold">Les Sherpas</span><br />le lien humain
             </h3>
             <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
               Des coachs santé formés et certifiés qui vous accompagnent dans la
@@ -142,7 +142,7 @@ export default function ApprochePage() {
           <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
             <img src="/images/icon-guilde.svg" alt="La Guilde" className="w-20 h-20 mx-auto mb-4" />
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
-              La Guilde, la coordination
+              <span className="font-bold">La Guilde</span><br />la coordination
             </h3>
             <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
               Un réseau de praticiens certifiés, coordonnés par Iris et les
