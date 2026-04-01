@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Rejoignez les Cercles de Fondateurs et soutenez la création d\'un écosystème de santé préventive ouvert à tous.',
   openGraph: {
-    images: [{ url: '/images/og-default.jpg', width: 1200, height: 630 }],
+    images: [{ url: '/images/og-soutenir.jpg', width: 1200, height: 630 }],
   },
 };
 

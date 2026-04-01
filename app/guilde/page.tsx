@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'La Guilde ARCHIPEL réunit des praticiens de santé engagés dans une coordination intégrative. Candidatures ouvertes Paris et Bordeaux.',
   openGraph: {
-    images: [{ url: '/images/og-default.jpg', width: 1200, height: 630 }],
+    images: [{ url: '/images/og-la-guilde.jpg', width: 1200, height: 630 }],
   },
 };
 

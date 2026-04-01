@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'ARCHIPEL Foundation',
     images: [
       {
-        url: '/images/og-default.jpg',
+        url: '/images/og-accueil.jpg',
         width: 1200,
         height: 630,
         alt: 'ARCHIPEL Foundation — Réinventer la santé. Pour qu\'elle dure.',
