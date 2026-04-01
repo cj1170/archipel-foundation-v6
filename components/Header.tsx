@@ -15,12 +15,12 @@ const DROPDOWN_LINKS = [
   {
     label: 'Notre Mission',
     href: '/mission',
-    description: 'Le pourquoi : notre raison d\u2019exister',
+    description: 'Le pourquoi',
   },
   {
     label: 'Notre Approche',
     href: '/approche',
-    description: 'Le comment : notre méthode intégrative',
+    description: 'Le comment',
   },
 ] as const;
 
