@@ -160,13 +160,8 @@ export default function MissionPage() {
             </div>
           </div>
 
-          {/* Placeholder visuel — à remplacer par DotsTCC */}
           <div className="order-first lg:order-last flex items-center justify-center">
-            <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full border-2 border-dashed border-linen/30 flex items-center justify-center">
-              <span className="font-label text-caption uppercase tracking-[0.08em] text-linen/40">
-                Schéma T&bull;C&bull;C + Milieu
-              </span>
-            </div>
+            <img src="/images/schema-tcc-milieu-complet.svg" alt="Cadre TÊTE•CŒUR•CORPS + MILIEU" className="w-full max-w-lg mx-auto" />
           </div>
         </div>
       </Section>
@@ -200,13 +195,7 @@ export default function MissionPage() {
             </p>
           </div>
 
-          {/* Placeholder visuel — schéma flux */}
-          <div className="rounded-lg border-2 border-dashed border-steel-blue/30 p-8 flex items-center justify-center mb-8">
-            <span className="font-label text-caption uppercase tracking-[0.08em] text-slate_f/40">
-              Schéma flux : Personnes &rarr; LIFE &rarr; Reversement &rarr;
-              Foundation &rarr; Impact
-            </span>
-          </div>
+          <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — Foundation supervise et finance Life" className="w-full max-w-2xl mx-auto mb-8" />
 
           <Button variant="primary" href="/soutenir">
             Soutenir cette mission
