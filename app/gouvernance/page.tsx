@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     'Charte Fondatrice, Comité d\'Éthique indépendant, CIES, Corpus Normatif : la gouvernance d\'ARCHIPEL Foundation est conçue pour durer.',
   openGraph: {
-    images: [{ url: '/og/gouvernance.jpg', width: 1200, height: 630 }],
+    images: [{ url: '/images/og-default.jpg', width: 1200, height: 630 }],
   },
 };
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     'Articles, analyses et réflexions sur la santé préventive, la Salutogénèse et l\'approche intégrative.',
   openGraph: {
-    images: [{ url: '/og/actualites.jpg', width: 1200, height: 630 }],
+    images: [{ url: '/images/og-default.jpg', width: 1200, height: 630 }],
   },
 };
 

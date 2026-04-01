@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     'ARCHIPEL Foundation est un fonds de dotation en création, dédié à la santé préventive et intégrative fondée sur la Salutogénèse.',
   openGraph: {
-    images: [{ url: '/og/accueil.jpg', width: 1200, height: 630 }],
+    images: [{ url: '/images/og-default.jpg', width: 1200, height: 630 }],
   },
 };
 

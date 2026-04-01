@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     'L\u2019approche ARCHIPEL repose sur le cadre TÊTE\u2022CŒUR\u2022CORPS + MILIEU, un compagnon IA (Iris), des Sherpas humains et La Guilde de praticiens certifiés.',
   openGraph: {
-    images: [{ url: '/og/approche.jpg', width: 1200, height: 630 }],
+    images: [{ url: '/images/og-default.jpg', width: 1200, height: 630 }],
   },
 };
 

@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     'ARCHIPEL construit un écosystème de santé préventive fondé sur la Salutogénèse. 5 axes : accessibilité, éducation, recherche, plaidoyer, souveraineté des données.',
   openGraph: {
-    images: [{ url: '/og/mission.jpg', width: 1200, height: 630 }],
+    images: [{ url: '/images/og-default.jpg', width: 1200, height: 630 }],
   },
 };
 
