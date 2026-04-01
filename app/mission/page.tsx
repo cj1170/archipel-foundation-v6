@@ -54,8 +54,8 @@ export default function MissionPage() {
           SECTION 1 — HERO MISSION
           ═══════════════════════════════════════════ */}
       <section className="relative overflow-hidden bg-slate_f text-linen pt-32 pb-16 lg:pt-40 lg:pb-24">
-        <img src="/images/photo-mission.webp" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-20" />
-        <div className="absolute inset-0 bg-slate_f/60" aria-hidden="true" />
+        <img src="/images/photo-mission.webp" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-40" />
+        <div className="absolute inset-0 bg-slate_f/35" aria-hidden="true" />
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
           <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-6 block">
