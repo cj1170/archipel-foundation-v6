@@ -39,6 +39,7 @@ export default function SherpasPage() {
 
       <Section variant="linen" padding="default">
         <div className="max-w-3xl mx-auto space-y-12">
+          <img src="/images/photo-sherpas.webp" alt="" className="w-full rounded-lg object-cover h-64 lg:h-80 mb-8" />
           <div>
             <h2 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-4">
               Le rôle du Sherpa

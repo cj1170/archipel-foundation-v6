@@ -81,6 +81,7 @@ export default function IrisPage() {
       {/* Non-substitution */}
       <Section variant="linen" padding="default">
         <div className="max-w-3xl mx-auto">
+          <img src="/images/photo-iris.webp" alt="" className="w-full rounded-lg object-cover h-64 lg:h-80 mb-8" />
           <div className="bg-coeur/10 border border-coeur/20 rounded-lg p-6 lg:p-8 mb-12">
             <h2 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-4">
               Iris n&apos;est pas un assistant médical

@@ -211,6 +211,7 @@ export default function SoutenirPage() {
           ═══════════════════════════════════════════ */}
       <Section variant="slate" padding="compact">
         <div className="max-w-3xl mx-auto text-center">
+          <img src="/images/photo-soutenir.webp" alt="" className="w-full rounded-lg object-cover h-64 lg:h-96 mb-8 mx-auto" />
           <blockquote className="font-heading text-h2 lg:text-h1 tracking-[-0.02em] text-linen mb-8 italic">
             &laquo;&nbsp;Le médecin est le confident de la maladie. ARCHIPEL est
             le confident de la santé.&nbsp;&raquo;
