@@ -111,7 +111,7 @@ export default function SoutenirPage() {
 
           {/* Visuel — 40% */}
           <div className="lg:col-span-2 flex items-center justify-center">
-            <img src="/images/schema-deux-corps.svg" alt="Don → Foundation → 5 axes → Impact" className="w-full max-w-sm mx-auto" />
+            <img src="/images/schema-don-impact.svg" alt="Votre don finance les 5 axes de mission — Accessibilité, Éducation, Recherche, Plaidoyer, Souveraineté" className="w-full max-w-2xl mx-auto" />
           </div>
         </div>
       </Section>
