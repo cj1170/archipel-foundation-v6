@@ -165,30 +165,8 @@ export default function Home() {
             opéré par ARCHIPEL LIFE, sa structure opérationnelle.
           </p>
 
-          {/* Card Foundation */}
-          <Card
-            variant="principe"
-            title="ARCHIPEL Foundation"
-            label="Fonds de dotation en création"
-            description="La mission, l'éthique, la recherche. Fonds de dotation en création, futur Fondation d'utilité publique. Aucun intérêt commercial."
-          />
-
-          {/* Connecteur visuel */}
-          <div className="flex flex-col items-center py-1">
-            <div className="w-px h-12 bg-sand/40" />
-            <span className="font-label text-caption uppercase tracking-[0.12em] text-sand py-2">
-              supervise &amp; finance
-            </span>
-            <div className="w-px h-12 bg-sand/40" />
-          </div>
-
-          {/* Card Life */}
-          <Card
-            variant="feature"
-            title="ARCHIPEL LIFE"
-            label="SAS en cours de création"
-            description="Le service opérationnel. Iris, les Sherpas, La Guilde, le parcours Odyssea. SAS à mission dont les résultats financent la Fondation."
-          />
+          {/* Schéma Deux Corps */}
+          <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — ARCHIPEL Foundation supervise et finance ARCHIPEL LIFE" className="w-full max-w-md mx-auto my-8" />
         </div>
       </Section>
 
