@@ -184,14 +184,14 @@ export default function GouvernancePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
           {/* Conseil de Fondation */}
           <div className="bg-linen rounded-lg p-6 lg:p-8">
-            <span className="font-heading text-hero text-coeur block mb-1">
-              9
-            </span>
-            <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue block mb-4">
-              membres &bull; instance souveraine
-            </span>
+            <div className="flex items-baseline gap-3 mb-4">
+              <span className="font-heading text-h1 text-coeur">9</span>
+              <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue">
+                membres &bull; instance souveraine
+              </span>
+            </div>
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
-              Le Conseil de Fondation
+              Le Conseil de Fondation<br />(Les Gardiens)
             </h3>
             <p className="font-body text-body-sm text-slate_f/70 mb-4">
               Instance souveraine de la Fondation. 9 membres représentant
@@ -208,12 +208,12 @@ export default function GouvernancePage() {
 
           {/* Comité d'Éthique */}
           <div className="bg-linen rounded-lg p-6 lg:p-8">
-            <span className="font-heading text-hero text-coeur block mb-1">
-              9
-            </span>
-            <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue block mb-4">
-              membres indépendants &bull; veto absolu
-            </span>
+            <div className="flex items-baseline gap-3 mb-4">
+              <span className="font-heading text-h1 text-coeur">9</span>
+              <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue">
+                membres indépendants &bull; veto absolu
+              </span>
+            </div>
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
               Le Comité d&apos;Éthique
             </h3>
@@ -240,12 +240,12 @@ export default function GouvernancePage() {
 
           {/* CIES */}
           <div className="bg-linen rounded-lg p-6 lg:p-8">
-            <span className="font-heading text-hero text-coeur block mb-1">
-              9
-            </span>
-            <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue block mb-4">
-              membres &bull; présidé par le CMedO
-            </span>
+            <div className="flex items-baseline gap-3 mb-4">
+              <span className="font-heading text-h1 text-coeur">9</span>
+              <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue">
+                membres &bull; présidé par le CMedO
+              </span>
+            </div>
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
               Le Comité Interdisciplinaire d&apos;Expertise Scientifique (CIES)
             </h3>

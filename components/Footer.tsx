@@ -21,7 +21,7 @@ export default function Footer() {
         {/* Grille 3 colonnes */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Col 1 : Logo + baseline */}
-          <div>
+          <div className="flex flex-col items-center">
             <img
               src="/images/logo-footer.png"
               alt="ARCHIPEL Foundation"
