@@ -231,13 +231,13 @@ export default function MissionPage() {
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
               href="/mission/9-principes"
-              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Les 9 Principes Fondateurs &rarr;
             </a>
             <a
               href="/mission/robin-hood"
-              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Le Modèle Robin Hood &rarr;
             </a>

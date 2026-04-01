@@ -249,25 +249,25 @@ export default function ApprochePage() {
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
               href="/approche/fondements"
-              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Fondements Scientifiques &rarr;
             </a>
             <a
               href="/approche/iris"
-              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Iris, le compagnon de santé &rarr;
             </a>
             <a
               href="/approche/sherpas"
-              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Les Sherpas &rarr;
             </a>
             <a
               href="/approche/odyssea"
-              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Le Parcours Odyssea &rarr;
             </a>
