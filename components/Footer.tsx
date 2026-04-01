@@ -27,7 +27,7 @@ export default function Footer() {
               alt="ARCHIPEL Foundation"
               className="h-16 lg:h-20 w-auto"
             />
-            <p className="mt-4 font-body text-body-sm italic text-sand leading-[1.6]">
+            <p className="mt-4 font-body text-body-sm italic text-sand leading-[1.6] text-center">
               Réinventer la santé.<br />Pour qu&apos;elle dure.
             </p>
           </div>

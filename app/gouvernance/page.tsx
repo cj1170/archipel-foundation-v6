@@ -13,28 +13,24 @@ export const metadata: Metadata = {
 
 const INSTANCES_SYNTH = [
   {
-    instance: 'Conseil de Fondation (Les Gardiens)',
+    instance: 'Conseil de Fondation',
     controle: 'Mission, valeurs, direction',
     mecanismes: 'Rapport trimestriel Direction, audit externe annuel',
-    temporalite: 'Trimestrielle + extraordinaire',
   },
   {
     instance: 'Comité d\u2019Éthique',
     controle: 'Iris, données, cadre déontologique',
     mecanismes: 'Audit Iris, traitement signalements, veto',
-    temporalite: 'Trimestriel + urgence 72h',
   },
   {
-    instance: 'CIES',
+    instance: 'Comité Interdisciplinaire d\u2019Expertise Scientifique',
     controle: 'Iris, Sherpas, La Guilde',
     mecanismes: 'Entretien annuel Sherpas, admissions Guilde, revue parcours',
-    temporalite: 'Trimestriel + continu (admissions)',
   },
   {
     instance: 'Direction',
     controle: 'Opérations, partenariats',
     mecanismes: 'Reporting KPIs, saisine CE/CIES',
-    temporalite: 'Mensuel + semestriel (Gardiens)',
   },
 ];
 
@@ -162,11 +158,8 @@ export default function GouvernancePage() {
                 <th className="font-label text-caption uppercase tracking-[0.08em] text-sand py-3 pr-4">
                   Contrôle sur
                 </th>
-                <th className="font-label text-caption uppercase tracking-[0.08em] text-sand py-3 pr-4">
-                  Mécanismes
-                </th>
                 <th className="font-label text-caption uppercase tracking-[0.08em] text-sand py-3">
-                  Temporalité
+                  Mécanismes
                 </th>
               </tr>
             </thead>
@@ -180,8 +173,7 @@ export default function GouvernancePage() {
                     {row.instance}
                   </td>
                   <td className="py-3 pr-4">{row.controle}</td>
-                  <td className="py-3 pr-4">{row.mecanismes}</td>
-                  <td className="py-3">{row.temporalite}</td>
+                  <td className="py-3">{row.mecanismes}</td>
                 </tr>
               ))}
             </tbody>
@@ -199,7 +191,7 @@ export default function GouvernancePage() {
               membres &bull; instance souveraine
             </span>
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
-              Le Conseil de Fondation — Les Gardiens
+              Le Conseil de Fondation
             </h3>
             <p className="font-body text-body-sm text-slate_f/70 mb-4">
               Instance souveraine de la Fondation. 9 membres représentant
@@ -431,19 +423,19 @@ export default function GouvernancePage() {
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
               href="/gouvernance/charte"
-              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Charte Fondatrice &rarr;
             </a>
             <a
               href="/gouvernance/comite-ethique"
-              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Le Comité d&apos;Éthique &rarr;
             </a>
             <a
               href="/gouvernance/cies"
-              className="font-label text-label uppercase tracking-[0.08em] text-sand hover:text-linen transition-colors"
+              className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Le CIES &rarr;
             </a>
