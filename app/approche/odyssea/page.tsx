@@ -68,11 +68,7 @@ export default function OdysseaPage() {
       {/* Placeholder spirale */}
       <Section variant="linen" padding="default">
         <div className="max-w-3xl mx-auto">
-          <div className="aspect-[2/1] max-w-lg mx-auto mb-12 bg-steel-blue/10 rounded-lg flex items-center justify-center">
-            <span className="font-label text-label text-steel-blue/50">
-              Schéma spirale Odyssea
-            </span>
-          </div>
+          <img src="/images/schema-odyssea-le-parcours.svg" alt="Parcours Odyssea — spirale en 4 phases avec les 6 dimensions ARKÉ" className="w-full max-w-2xl mx-auto mb-12" />
 
           {/* 6 dimensions ARKÉ */}
           <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">

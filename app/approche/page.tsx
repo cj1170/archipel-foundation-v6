@@ -218,13 +218,9 @@ export default function ApprochePage() {
             </a>
           </div>
 
-          {/* Placeholder visuel spirale */}
+          {/* Schéma spirale Odyssea */}
           <div className="order-first lg:order-last">
-            <div className="aspect-square max-w-sm mx-auto bg-steel-blue/10 rounded-full flex items-center justify-center">
-              <span className="font-label text-label text-steel-blue/50">
-                Spirale Odyssea
-              </span>
-            </div>
+            <img src="/images/schema-odyssea-le-parcours.svg" alt="Parcours Odyssea — spirale en 4 phases avec les 6 dimensions ARKÉ" className="w-full max-w-2xl mx-auto" />
           </div>
         </div>
       </Section>
