@@ -111,11 +111,7 @@ export default function SoutenirPage() {
 
           {/* Visuel — 40% */}
           <div className="lg:col-span-2 flex items-center justify-center">
-            <div className="w-48 h-48 lg:w-64 lg:h-64 rounded-full border-2 border-dashed border-steel-blue/30 flex items-center justify-center">
-              <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue/40 text-center px-4">
-                Don &rarr; Foundation &rarr; 5 axes &rarr; Impact
-              </span>
-            </div>
+            <img src="/images/schema-deux-corps.svg" alt="Don → Foundation → 5 axes → Impact" className="w-full max-w-sm mx-auto" />
           </div>
         </div>
       </Section>

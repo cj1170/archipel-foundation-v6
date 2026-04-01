@@ -137,12 +137,14 @@ export default function GuildePage() {
               key={a.title}
               className="bg-steel-blue/10 border border-steel-blue/20 rounded-lg p-6 lg:p-8"
             >
-              <span className="font-label text-label uppercase tracking-[0.08em] text-steel-blue mb-4 block">
-                0{i + 1}
-              </span>
-              <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
-                {a.title}
-              </h3>
+              <div className="flex items-baseline gap-3 mb-3">
+                <span className="font-heading text-h1 text-coeur">
+                  0{i + 1}
+                </span>
+                <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f">
+                  {a.title}
+                </h3>
+              </div>
               <p className="font-body text-body leading-[1.6] text-slate_f/80">
                 {a.description}
               </p>
@@ -190,7 +192,7 @@ export default function GuildePage() {
             ))}
           </div>
 
-          <p className="font-heading text-body text-linen text-center italic">
+          <p className="font-heading text-h2 font-bold text-linen text-center italic">
             Nous n&apos;excluons aucune pratique a priori.
           </p>
 

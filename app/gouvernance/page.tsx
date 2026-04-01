@@ -96,11 +96,7 @@ export default function GouvernancePage() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16 items-center">
           {/* Visuel — à gauche (40%) */}
           <div className="lg:col-span-2 flex items-center justify-center">
-            <div className="w-48 h-64 lg:w-56 lg:h-72 rounded-lg border-2 border-dashed border-steel-blue/30 flex items-center justify-center">
-              <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue/40">
-                Charte Fondatrice
-              </span>
-            </div>
+            <img src="/images/picto-foundation.png" alt="ARCHIPEL Foundation" className="w-40 h-40 mx-auto" />
           </div>
 
           {/* Texte — à droite (60%) */}
