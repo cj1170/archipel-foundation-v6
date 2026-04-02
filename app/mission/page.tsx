@@ -58,7 +58,7 @@ export default function MissionPage() {
         <div className="absolute inset-0 bg-slate_f/35" aria-hidden="true" />
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-6 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-6 block">
             Notre mission
           </span>
 
@@ -84,7 +84,7 @@ export default function MissionPage() {
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
         <div className="max-w-3xl mx-auto text-center mb-12">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block">
             5 axes permanents
           </span>
           <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
@@ -134,7 +134,7 @@ export default function MissionPage() {
       <Section variant="steel" padding="default">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div>
-            <span className="font-label text-label uppercase tracking-[0.12em] text-tete mb-4 block">
+            <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-tete mb-4 block">
               Notre philosophie
             </span>
             <h2 className="font-heading text-h2 tracking-[-0.02em] text-linen mb-6">
@@ -175,7 +175,7 @@ export default function MissionPage() {
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
         <div className="max-w-3xl mx-auto">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block">
             Notre architecture
           </span>
           <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">

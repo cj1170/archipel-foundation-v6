@@ -23,7 +23,7 @@ export default async function ActualitesPage() {
           ═══════════════════════════════════════════ */}
       <Section variant="slate" padding="compact" className="pt-32 lg:pt-36">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-6 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-6 block">
             Actualités
           </span>
 

@@ -101,7 +101,7 @@ export default function Footer() {
               Rejoindre les pionniers
             </h3>
             <p className="font-body text-body-sm text-sand mb-6">
-              Recevez les avancées du projet et participez à l&apos;aventure ARCHIPEL.
+              Recevez des nouvelles sur l&apos;avancée du projet et participez à l&apos;aventure ARCHIPEL.
             </p>
             <PioneerForm variant="on-dark" layout="inline" />
           </div>

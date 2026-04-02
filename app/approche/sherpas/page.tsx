@@ -24,7 +24,7 @@ export default function SherpasPage() {
             <span className="text-sand">Les Sherpas</span>
           </nav>
 
-          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-4 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-4 block">
             Le lien humain
           </span>
           <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">

@@ -28,7 +28,7 @@ export default function ApprochePage() {
           ═══════════════════════════════════════════ */}
       <Section variant="slate" padding="hero">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-6 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-6 block">
             Notre approche
           </span>
 
@@ -55,7 +55,7 @@ export default function ApprochePage() {
 
           {/* Texte — à droite */}
           <div>
-            <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+            <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block">
               Le cadre
             </span>
             <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
@@ -86,7 +86,7 @@ export default function ApprochePage() {
           ═══════════════════════════════════════════ */}
       <Section variant="steel" padding="default">
         <div className="text-center mb-12">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-tete mb-4 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-tete mb-4 block">
             L&apos;écosystème
           </span>
           <h2 className="font-heading text-h2 tracking-[-0.02em] text-linen max-w-2xl mx-auto">
@@ -167,7 +167,7 @@ export default function ApprochePage() {
       <Section variant="linen" padding="default">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
           <div>
-            <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+            <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block">
               Le parcours
             </span>
             <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">

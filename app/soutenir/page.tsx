@@ -67,7 +67,7 @@ export default function SoutenirPage() {
           ═══════════════════════════════════════════ */}
       <Section variant="slate" padding="hero">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-6 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-6 block">
             Soutenir
           </span>
 
@@ -89,7 +89,7 @@ export default function SoutenirPage() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 lg:gap-16 items-center">
           {/* Texte — 60% */}
           <div className="lg:col-span-3">
-            <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+            <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block">
               Votre impact
             </span>
             <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
@@ -121,7 +121,7 @@ export default function SoutenirPage() {
           ═══════════════════════════════════════════ */}
       <Section variant="slate" padding="default">
         <div className="text-center mb-12">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-4 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-4 block">
             Les Cercles de Fondateurs
           </span>
           <h2 className="font-heading text-h2 tracking-[-0.02em] text-linen max-w-2xl mx-auto">

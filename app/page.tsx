@@ -96,7 +96,7 @@ export default function Home() {
 
           {/* Colonne texte */}
           <div className="lg:col-span-3">
-            <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+            <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block">
               Le constat
             </span>
             <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
@@ -137,7 +137,7 @@ export default function Home() {
           <div className="w-16 h-px bg-sand/40 mb-12" />
 
           {/* Salutogénèse */}
-          <span className="font-label text-label uppercase tracking-[0.12em] text-tete mb-4 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-tete mb-4 block">
             La Salutogénèse
           </span>
           <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen mb-6">
@@ -163,7 +163,7 @@ export default function Home() {
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
         <div className="max-w-3xl mx-auto">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block">
             Ce que nous construisons
           </span>
           <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
@@ -184,7 +184,7 @@ export default function Home() {
           ═══════════════════════════════════════════ */}
       <Section variant="slate" padding="default">
         <div className="text-center mb-12">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-4 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-4 block">
             Nos engagements
           </span>
           <h2 className="font-heading text-h2 tracking-[-0.02em] text-linen max-w-2xl mx-auto">

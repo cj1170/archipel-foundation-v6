@@ -105,7 +105,7 @@ export default function GuildePage() {
         <div className="absolute inset-0 bg-slate_f/35" aria-hidden="true" />
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-sand mb-6 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-6 block">
             La Guilde
           </span>
 
@@ -127,7 +127,7 @@ export default function GuildePage() {
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
         <div className="text-center mb-12">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block">
             Pourquoi rejoindre La Guilde
           </span>
           <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f max-w-2xl mx-auto">
@@ -163,7 +163,7 @@ export default function GuildePage() {
       <Section variant="steel" padding="default">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <span className="font-label text-label uppercase tracking-[0.12em] text-tete mb-4 block">
+            <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-tete mb-4 block">
               Profils recherchés
             </span>
             <h2 className="font-heading text-h2 tracking-[-0.02em] text-linen mb-6">
@@ -211,7 +211,7 @@ export default function GuildePage() {
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
         <div className="max-w-4xl mx-auto">
-          <span className="font-label text-label uppercase tracking-[0.12em] text-steel-blue mb-4 block text-center">
+          <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block text-center">
             Le cadre
           </span>
           <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-8 text-center">
