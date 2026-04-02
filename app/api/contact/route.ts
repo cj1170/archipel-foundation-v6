@@ -56,13 +56,11 @@ export async function POST(request: Request) {
       properties.Ville = { rich_text: [{ text: { content: body.ville } }] };
     }
     if (body.specialites) {
-      properties.Spécialités = { rich_text: [{ text: { content: body.specialites } }] };
+      properties['Spécialités'] = { multi_select: body.specialites.split(',').map((s: string) => ({ name: s.trim() })) };
     }
-    if (body.motivation) {
-      properties.Motivation = { rich_text: [{ text: { content: body.motivation } }] };
-    }
-    if (body.message) {
-      properties.Message = { rich_text: [{ text: { content: body.message } }] };
+    if (body.message || body.motivation) {
+      const msg = [body.message, body.motivation].filter(Boolean).join('\n\n');
+      properties.Message = { rich_text: [{ text: { content: msg } }] };
     }
 
     console.log('NOTION_API_KEY exists:', !!process.env.NOTION_API_KEY);
@@ -88,7 +86,7 @@ export async function POST(request: Request) {
 
     if (!res.ok) {
       return NextResponse.json(
-        { error: 'Erreur lors de l\'enregistrement', details: responseText },
+        { error: 'Erreur lors de l\'enregistrement' },
         { status: 502 },
       );
     }
