@@ -38,15 +38,11 @@ export async function POST(request: Request) {
     }
 
     const properties: Record<string, unknown> = {
-      Prénom: { title: [{ text: { content: body.prenom } }] },
+      Prénom: { rich_text: [{ text: { content: body.prenom } }] },
       Email: { email: body.email },
       Type: { select: { name: body.type } },
-      RGPD: { checkbox: body.rgpd },
+      Nom: { title: [{ text: { content: body.nom || body.prenom } }] },
     };
-
-    if (body.nom) {
-      properties.Nom = { rich_text: [{ text: { content: body.nom } }] };
-    }
     if (body.organisation) {
       properties.Organisation = { rich_text: [{ text: { content: body.organisation } }] };
     }
