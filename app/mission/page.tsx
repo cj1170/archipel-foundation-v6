@@ -165,7 +165,7 @@ export default function MissionPage() {
           </div>
 
           <div className="order-first lg:order-last flex items-center justify-center">
-            <img src="/images/schema-tcc-milieu-complet.svg" alt="Cadre TÊTE•CŒUR•CORPS + MILIEU" className="w-full max-w-lg mx-auto" />
+            <img src="/images/schema-tcc-milieu-philosophie.svg" alt="Cadre TÊTE•CŒUR•CORPS + MILIEU" className="w-full max-w-lg mx-auto" />
           </div>
         </div>
       </Section>
