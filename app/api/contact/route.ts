@@ -88,7 +88,7 @@ export async function POST(request: Request) {
 
     if (!res.ok) {
       return NextResponse.json(
-        { error: 'Erreur lors de l\'enregistrement' },
+        { error: 'Erreur lors de l\'enregistrement', details: responseText },
         { status: 502 },
       );
     }
