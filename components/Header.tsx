@@ -241,10 +241,10 @@ export default function Header() {
           ========================================================== */}
       <div
         id="mobile-menu"
-        className={`lg:hidden fixed inset-x-0 top-[60px] bottom-0 bg-[#1A2B35] z-[9999] transition-opacity duration-base overflow-y-auto ${
+        className={`lg:hidden fixed inset-x-0 top-[60px] bottom-0 z-[9999] overflow-y-auto transition-all duration-300 ${
           mobileOpen
-            ? 'opacity-100 pointer-events-auto'
-            : 'opacity-0 pointer-events-none'
+            ? 'opacity-100 visible pointer-events-auto bg-[#1A2B35]'
+            : 'opacity-0 invisible pointer-events-none bg-[#1A2B35]'
         }`}
         role="navigation"
         aria-label="Navigation mobile"
