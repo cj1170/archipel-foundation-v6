@@ -66,6 +66,7 @@ export default function Header() {
   ];
 
   return (
+    <>
     <header className="sticky top-0 z-50 bg-slate_f/95 backdrop-blur-sm">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between h-[60px] lg:h-[72px]">
         {/* Logo */}
@@ -222,62 +223,47 @@ export default function Header() {
         </button>
       </div>
 
-      {/* ==========================================================
-          MENU HAMBURGER — plein écran, fond Slate 100% opaque
-          Actif sur mobile ET desktop réduit (< lg: 1024px)
-          
-          Corrections vs version précédente :
-          1. bg-[#1A2B35] hex direct → fond garanti 100% opaque
-             (bg-slate_f pouvait être résolu avec transparence)
-          2. z-[9999] → au-dessus de tout contenu de page
-          3. Fade (opacity) au lieu de translate-x-full → 
-             pas de chevauchement pendant la transition
-          4. inset-x-0 top-[60px] bottom-0 → couvre tout l'écran
-             sous la barre de navigation
-          5. overflow-y-auto → scroll interne si contenu trop haut
-          6. Body scroll lock via useEffect (empêche scroll derrière)
-          7. Fermeture : ESC, clic lien, changement de route
-          8. aria-hidden + tabIndex pour accessibilité
-          ========================================================== */}
-      <div
-        id="mobile-menu"
-        className="lg:hidden fixed inset-x-0 top-[60px] bottom-0 z-[9999] overflow-y-auto"
-        style={{
-          backgroundColor: '#1A2B35',
-          opacity: mobileOpen ? 1 : 0,
-          pointerEvents: mobileOpen ? 'auto' : 'none',
-          visibility: mobileOpen ? 'visible' : 'hidden',
-          transition: 'opacity 300ms ease, visibility 300ms ease',
-        }}
-        role="navigation"
-        aria-label="Navigation mobile"
-        aria-hidden={!mobileOpen}
-      >
-        <nav className="flex flex-col px-6 pt-8 gap-1">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className={`block py-4 font-label text-label uppercase tracking-[0.08em] border-b border-steel-blue/20 transition-colors duration-base hover:text-linen ${
-                isActive(link.href) ? 'text-linen' : 'text-sand'
-              }`}
-              onClick={() => setMobileOpen(false)}
-              tabIndex={mobileOpen ? 0 : -1}
-            >
-              {link.label}
-            </Link>
-          ))}
+    </header>
 
-          <a
-            className="mt-8 inline-flex items-center justify-center px-6 py-3 bg-sand text-slate_f font-label text-label uppercase tracking-[0.08em] rounded-full hover:bg-[#C8B496] active:scale-[0.98] transition-all duration-base"
-            href="#pionniers"
+    <div
+      id="mobile-menu"
+      className="lg:hidden fixed inset-x-0 top-[60px] bottom-0 z-[9999] overflow-y-auto"
+      style={{
+        backgroundColor: '#1A2B35',
+        opacity: mobileOpen ? 1 : 0,
+        pointerEvents: mobileOpen ? 'auto' : 'none',
+        visibility: mobileOpen ? 'visible' : 'hidden',
+        transition: 'opacity 300ms ease, visibility 300ms ease',
+      }}
+      role="navigation"
+      aria-label="Navigation mobile"
+      aria-hidden={!mobileOpen}
+    >
+      <nav className="flex flex-col px-6 pt-8 gap-1">
+        {navLinks.map((link) => (
+          <Link
+            key={link.href}
+            href={link.href}
+            className={`block py-4 font-label text-label uppercase tracking-[0.08em] border-b border-steel-blue/20 transition-colors duration-base hover:text-linen ${
+              isActive(link.href) ? 'text-linen' : 'text-sand'
+            }`}
             onClick={() => setMobileOpen(false)}
             tabIndex={mobileOpen ? 0 : -1}
           >
-            Rejoindre les pionniers
-          </a>
-        </nav>
-      </div>
-    </header>
+            {link.label}
+          </Link>
+        ))}
+
+        <a
+          className="mt-8 inline-flex items-center justify-center px-6 py-3 bg-sand text-slate_f font-label text-label uppercase tracking-[0.08em] rounded-full hover:bg-[#C8B496] active:scale-[0.98] transition-all duration-base"
+          href="#pionniers"
+          onClick={() => setMobileOpen(false)}
+          tabIndex={mobileOpen ? 0 : -1}
+        >
+          Rejoindre les pionniers
+        </a>
+      </nav>
+    </div>
+    </>
   );
 }
