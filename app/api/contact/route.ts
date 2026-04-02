@@ -63,10 +63,6 @@ export async function POST(request: Request) {
       properties.Message = { rich_text: [{ text: { content: msg } }] };
     }
 
-    console.log('NOTION_API_KEY exists:', !!process.env.NOTION_API_KEY);
-    console.log('NOTION_DATABASE_ID:', process.env.NOTION_DATABASE_ID || 'd0304717371c45768a2ee42779dd7da5');
-    console.log('Payload type:', body.type, 'email:', body.email);
-
     const res = await fetch('https://api.notion.com/v1/pages', {
       method: 'POST',
       headers: {
@@ -80,11 +76,9 @@ export async function POST(request: Request) {
       }),
     });
 
-    const responseText = await res.text();
-    console.log('Notion response status:', res.status);
-    console.log('Notion response body:', responseText);
-
     if (!res.ok) {
+      const err = await res.text();
+      console.error('Notion API error:', res.status, err);
       return NextResponse.json(
         { error: 'Erreur lors de l\'enregistrement' },
         { status: 502 },
