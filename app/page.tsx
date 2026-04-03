@@ -175,7 +175,7 @@ export default function Home() {
           </p>
 
           {/* Schéma Deux Corps */}
-          <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — ARCHIPEL Foundation supervise et finance ARCHIPEL LIFE" className="w-full max-w-3xl mx-auto my-8" />
+          <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — ARCHIPEL Foundation supervise et finance ARCHIPEL LIFE" className="w-full max-w-4xl mx-auto my-8" />
         </div>
       </Section>
 
