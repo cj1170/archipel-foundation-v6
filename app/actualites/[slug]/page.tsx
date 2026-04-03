@@ -46,7 +46,7 @@ export default async function ArticlePage({ params }: PageProps) {
       {/* ═══════════════════════════════════════════
           HERO ARTICLE
           ═══════════════════════════════════════════ */}
-      <Section variant="slate" padding="hero">
+      <Section variant="slate" className="pt-32 pb-16 lg:pt-40 lg:pb-20">
         <div className="max-w-3xl mx-auto">
           {/* Breadcrumbs */}
           <nav
@@ -65,28 +65,17 @@ export default async function ArticlePage({ params }: PageProps) {
             <span className="text-sand">{article.category}</span>
           </nav>
 
-          {/* Meta */}
-          <div className="flex items-center gap-3 mb-6">
-            <span className="font-label text-caption uppercase tracking-[0.08em] text-tete">
-              {article.category}
-            </span>
-            <span className="text-sand/50">&bull;</span>
-            <time
-              className="font-body text-caption text-sand/70"
-              dateTime={article.date}
-            >
-              {formattedDate}
-            </time>
-          </div>
-
           {/* Titre */}
           <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">
             {article.title}
           </h1>
 
-          {/* Auteur */}
+          {/* Séparateur */}
+          <div className="w-12 h-0.5 bg-sand mb-6" />
+
+          {/* Auteur + Date */}
           <p className="font-body text-body-sm text-sand">
-            Par {article.author}
+            Par {article.author} | <time dateTime={article.date}>{formattedDate}</time>
           </p>
         </div>
       </Section>
@@ -95,7 +84,7 @@ export default async function ArticlePage({ params }: PageProps) {
           CONTENU ARTICLE
           ═══════════════════════════════════════════ */}
       <Section variant="linen" padding="default">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto text-justify">
           <ReactMarkdown
             components={{
               h2: ({ children }) => (
