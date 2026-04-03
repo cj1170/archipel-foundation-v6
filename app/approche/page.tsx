@@ -106,8 +106,8 @@ export default function ApprochePage() {
             <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
               Iris est votre compagnon IA, disponible 24h/24. Elle écoute,
               observe, relie, oriente et archive. Elle se souvient et augmente
-              vos capacités de décision et les capacités de votre Sherpa pour
-              créer votre parcours sur-mesure. Elle respecte vos rythmes et
+              vos décisions comme celles de votre Sherpa pour construire
+              votre parcours sur-mesure. Elle respecte vos rythmes et
               observe des périodes de silence intentionnel. Mais elle ne pose pas
               de diagnostic, ne prescrit rien, ne remplace aucun professionnel
               de santé.

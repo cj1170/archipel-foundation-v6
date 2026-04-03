@@ -80,7 +80,7 @@ export default function GouvernancePage() {
           </span>
 
           <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">
-            Construite pour durer. Conçue pour être stable et harmonieuse.
+            Construite pour durer. Conçue pour être harmonieuse et résister aux lobbys.
           </h1>
 
           <p className="font-body text-h4 text-linen/70">

@@ -253,7 +253,7 @@ export default function Home() {
           <Card
             variant="cta"
             title="Rejoindre La Guilde"
-            description="Vous êtes praticien de santé ? Intégrez un réseau de coordination sans précédent."
+            description="Vous êtes praticien de santé ? Intégrez un réseau de coordination pluridisciplinaire."
             href="/guilde"
             ctaLabel="Candidater"
           >

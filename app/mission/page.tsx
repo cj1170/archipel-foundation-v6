@@ -67,7 +67,7 @@ export default function MissionPage() {
           </h1>
 
           <p className="font-body text-h4 text-linen/70 mb-8">
-            Une fondation qui crée les conditions harmonieuses pour que la santé
+            Une fondation qui crée les conditions pour que la santé
             dure. ARCHIPEL ne soigne pas, ARCHIPEL relie et transforme le soin
             et le parcours de santé
           </p>
