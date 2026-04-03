@@ -88,7 +88,7 @@ export default function ArticlesList({
           {/* Article vedette */}
           {featured && (
             <article className="grid grid-cols-1 lg:grid-cols-5 gap-8 mb-16">
-              <div className="lg:col-span-3 aspect-[16/9] rounded-lg overflow-hidden bg-steel-blue/10">
+              <Link href={`/actualites/${featured.slug}`} className="lg:col-span-3 aspect-[16/9] rounded-lg overflow-hidden bg-steel-blue/10 block">
                 {featured.image ? (
                   <img src={featured.image} alt={featured.title} className="w-full h-full object-cover" />
                 ) : (
@@ -96,7 +96,7 @@ export default function ArticlesList({
                     <span className="font-label text-caption uppercase tracking-[0.08em] text-sand/40">Image article</span>
                   </div>
                 )}
-              </div>
+              </Link>
               <div className="lg:col-span-2 flex flex-col justify-center">
                 <div className="flex items-center gap-2 mb-3">
                   <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue">
@@ -127,7 +127,7 @@ export default function ArticlesList({
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
               {paginated.map((article) => (
                 <article key={article.slug} className="group">
-                  <div className="aspect-[16/9] rounded-lg overflow-hidden bg-steel-blue/10 mb-4">
+                  <Link href={`/actualites/${article.slug}`} className="aspect-[16/9] rounded-lg overflow-hidden bg-steel-blue/10 mb-4 block">
                     {article.image ? (
                       <img src={article.image} alt={article.title} className="w-full h-full object-cover" />
                     ) : (
@@ -135,7 +135,7 @@ export default function ArticlesList({
                         <span className="font-label text-caption uppercase tracking-[0.08em] text-sand/40">Image</span>
                       </div>
                     )}
-                  </div>
+                  </Link>
                   <div className="flex items-center gap-2 mb-2">
                     <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue">
                       {article.category}
