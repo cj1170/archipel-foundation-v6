@@ -22,8 +22,8 @@ export default function Home() {
       <section
         className="min-h-[75vh] flex items-center relative overflow-hidden bg-slate_f text-linen pt-32 pb-16 lg:pt-40 lg:pb-24"
       >
-        <img src="/images/hero-accueil.webp" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-50" />
-        <div className="absolute inset-0 bg-slate_f/40" aria-hidden="true" />
+        <img src="/images/hero-accueil.webp" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-60" />
+        <div className="absolute inset-0 bg-slate_f/25" aria-hidden="true" />
         <div className="mx-auto max-w-7xl px-6 lg:px-8 relative z-10">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto pt-0">
           {/* Picto Foundation */}

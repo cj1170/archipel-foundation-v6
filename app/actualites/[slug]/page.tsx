@@ -49,8 +49,8 @@ export default async function ArticlePage({ params }: PageProps) {
       <section className="relative min-h-[50vh] flex items-end bg-slate_f text-linen pt-32 pb-12 lg:pt-40 lg:pb-16">
         {article.image && (
           <>
-            <img src={article.image} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-40" />
-            <div className="absolute inset-0 bg-slate_f/50" aria-hidden="true" />
+            <img src={article.image} alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-60" />
+            <div className="absolute inset-0 bg-slate_f/25" aria-hidden="true" />
           </>
         )}
         <div className="mx-auto max-w-3xl px-6 lg:px-8 relative z-10">
