@@ -80,6 +80,15 @@ export default async function ArticlePage({ params }: PageProps) {
         </div>
       </Section>
 
+      {/* Image article */}
+      {article.image && (
+        <div className="bg-linen">
+          <div className="mx-auto max-w-3xl px-6 lg:px-8 pt-12">
+            <img src={article.image} alt={article.title} className="w-full rounded-lg object-cover aspect-[16/9]" />
+          </div>
+        </div>
+      )}
+
       {/* ═══════════════════════════════════════════
           CONTENU ARTICLE
           ═══════════════════════════════════════════ */}

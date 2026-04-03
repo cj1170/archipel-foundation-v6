@@ -89,11 +89,13 @@ export default function ArticlesList({
           {featured && (
             <article className="grid grid-cols-1 lg:grid-cols-5 gap-8 mb-16">
               <div className="lg:col-span-3 aspect-[16/9] rounded-lg overflow-hidden bg-steel-blue/10">
-                <div className="w-full h-full flex items-center justify-center">
-                  <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue/40">
-                    Image article
-                  </span>
-                </div>
+                {featured.image ? (
+                  <img src={featured.image} alt={featured.title} className="w-full h-full object-cover" />
+                ) : (
+                  <div className="w-full h-full flex items-center justify-center">
+                    <span className="font-label text-caption uppercase tracking-[0.08em] text-sand/40">Image article</span>
+                  </div>
+                )}
               </div>
               <div className="lg:col-span-2 flex flex-col justify-center">
                 <div className="flex items-center gap-2 mb-3">
@@ -126,11 +128,13 @@ export default function ArticlesList({
               {paginated.map((article) => (
                 <article key={article.slug} className="group">
                   <div className="aspect-[16/9] rounded-lg overflow-hidden bg-steel-blue/10 mb-4">
-                    <div className="w-full h-full flex items-center justify-center">
-                      <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue/30">
-                        Image
-                      </span>
-                    </div>
+                    {article.image ? (
+                      <img src={article.image} alt={article.title} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center">
+                        <span className="font-label text-caption uppercase tracking-[0.08em] text-sand/40">Image</span>
+                      </div>
+                    )}
                   </div>
                   <div className="flex items-center gap-2 mb-2">
                     <span className="font-label text-caption uppercase tracking-[0.08em] text-steel-blue">
