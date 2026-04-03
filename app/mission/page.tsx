@@ -198,9 +198,11 @@ export default function MissionPage() {
               mission.
             </p>
           </div>
+        </div>
 
-          <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — Foundation supervise et finance Life" className="w-full max-w-4xl mx-auto mb-8" />
+        <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — Foundation supervise et finance Life" className="w-full max-w-4xl mx-auto mb-8" />
 
+        <div className="max-w-3xl mx-auto">
           <Button variant="primary" href="/soutenir">
             Soutenir cette mission
           </Button>

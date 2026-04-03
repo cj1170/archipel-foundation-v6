@@ -173,10 +173,10 @@ export default function Home() {
             ARCHIPEL Foundation supervise le développement d&apos;un service de santé préventive
             opéré par ARCHIPEL LIFE, sa structure opérationnelle.
           </p>
-
-          {/* Schéma Deux Corps */}
-          <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — ARCHIPEL Foundation supervise et finance ARCHIPEL LIFE" className="w-full max-w-4xl mx-auto my-8" />
         </div>
+
+        {/* Schéma Deux Corps */}
+        <img src="/images/schema-deux-corps.svg" alt="Modèle à deux corps — ARCHIPEL Foundation supervise et finance ARCHIPEL LIFE" className="w-full max-w-4xl mx-auto my-8" />
       </Section>
 
       {/* ═══════════════════════════════════════════
