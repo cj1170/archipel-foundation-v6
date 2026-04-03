@@ -71,8 +71,10 @@ export default function GouvernancePage() {
       {/* ═══════════════════════════════════════════
           SECTION 1 — HERO GOUVERNANCE
           ═══════════════════════════════════════════ */}
-      <Section variant="slate" padding="hero">
-        <div className="max-w-3xl mx-auto text-center">
+      <Section variant="slate" padding="hero" className="relative overflow-hidden">
+        <img src="/images/hero-gouvernance.webp" alt="" className="absolute inset-0 w-full h-full object-cover opacity-40" />
+        <div className="absolute inset-0 bg-slate_f/35" />
+        <div className="max-w-3xl mx-auto text-center relative z-10">
           <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-6 block">
             Gouvernance &amp; Éthique
           </span>
