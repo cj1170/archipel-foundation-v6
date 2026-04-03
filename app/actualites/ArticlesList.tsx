@@ -25,9 +25,12 @@ export default function ArticlesList({
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [page, setPage] = useState(1);
 
+  const today = new Date().toISOString().split('T')[0];
+  const published = articles.filter((a) => a.date <= today);
+
   const filtered = activeCategory
-    ? articles.filter((a) => a.category === activeCategory)
-    : articles;
+    ? published.filter((a) => a.category === activeCategory)
+    : published;
 
   const totalPages = Math.ceil(filtered.length / ARTICLES_PER_PAGE);
   const featured = filtered[0];
