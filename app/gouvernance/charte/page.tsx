@@ -11,12 +11,12 @@ export const metadata: Metadata = {
 const ARTICLES = [
   { titre: 'Objet et mission', resume: 'Définit la raison d\u2019être d\u2019ARCHIPEL Foundation : créer les conditions d\u2019une santé préventive, coordonnée et accessible.' },
   { titre: 'Philosophie', resume: 'Inscrit la Salutogénèse et le cadre TÊTE\u2022CŒUR\u2022CORPS + MILIEU comme fondements philosophiques de la Fondation.' },
+  { titre: 'Les 9 Principes Fondateurs', resume: 'Énonce les neuf engagements irréductibles qui guident chaque décision d\u2019ARCHIPEL Foundation.' },
   { titre: 'Écosystème', resume: 'Décrit l\u2019architecture à deux corps (Foundation + LIFE) et les mécanismes de coordination entre les entités.' },
-  { titre: 'Engagements envers les bénéficiaires', resume: 'Formalise les engagements de non-substitution, de transparence, de souveraineté des données et d\u2019accessibilité.' },
+  { titre: 'Engagements envers les bénéficiaires', resume: 'Formalise les engagements de non-substitution, de transparence, de propriété des données et d\u2019accessibilité.' },
   { titre: 'Gouvernance', resume: 'Établit les quatre instances (Conseil, Comité d\u2019Éthique, CIES, Direction) et leurs périmètres respectifs.' },
   { titre: 'Comité d\u2019Éthique', resume: 'Inscrit le droit de veto absolu du Comité d\u2019Éthique dans les statuts. Définit ses périmètres d\u2019intervention.' },
   { titre: 'Corpus Normatif', resume: 'Établit la hiérarchie normative : Charte (suprême) > Constitutions > Codes > Décrets. En cas de conflit, la norme supérieure prévaut.' },
-  { titre: 'Les 9 Principes Fondateurs', resume: 'Énonce les neuf engagements irréductibles qui guident chaque décision d\u2019ARCHIPEL Foundation.' },
   { titre: 'Clause de Pérennité', resume: 'ARCHIPEL Foundation est construite pour survivre à ses fondateurs. Chaque rôle a un titulaire et un relais identifié.' },
 ];
 
@@ -39,9 +39,12 @@ export default function ChartePage() {
           <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-4 block">
             Document fondateur
           </span>
-          <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">
+          <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-3">
             La Charte Fondatrice
           </h1>
+          <p className="font-label text-caption uppercase tracking-[0.08em] text-sand/60 mb-6">
+            Charte Fondatrice v2.0 — avril 2026
+          </p>
           <p className="font-body text-h4 text-linen/70">
             Le document de rang suprême d&apos;ARCHIPEL Foundation. Publique,
             opposable, gardée par le Comité d&apos;Éthique. Toute décision
