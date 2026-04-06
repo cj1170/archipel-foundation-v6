@@ -1,59 +1,24 @@
 import { Metadata } from 'next';
 import Section from '@/components/Section';
 import Button from '@/components/Button';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Les 9 Principes Fondateurs',
+  title: 'Les 9 Principes Fondateurs — ARCHIPEL Foundation',
   description:
-    'Les 9 principes fondateurs de la Charte ARCHIPEL Foundation : les engagements irréductibles qui guident chaque décision.',
+    'Inscrits dans la Charte Fondatrice v2.0, les 9 principes définissent ce qu\u2019ARCHIPEL s\u2019engage à faire et à ne jamais faire.',
 };
 
-const PRINCIPES = [
-  {
-    titre: 'La santé est un bien commun',
-    texte:
-      'La santé n\u2019appartient à aucune institution, aucune entreprise, aucun système. Elle appartient aux personnes qui la vivent. ARCHIPEL existe pour servir ce bien commun, pas pour le capturer.',
-  },
-  {
-    titre: 'Non-substitution',
-    texte:
-      'ARCHIPEL ne diagnostique pas, ne prescrit pas, ne remplace aucun professionnel de santé. La Fondation coordonne, relie et transforme le parcours. Elle ne se substitue jamais à l\u2019acte médical.',
-  },
-  {
-    titre: 'Primauté décisionnelle médicale',
-    texte:
-      'En cas de désaccord clinique entre praticiens, le médecin a primauté décisionnelle. Ce principe est non négociable et inscrit dans le cadre déontologique de La Guilde.',
-  },
-  {
-    titre: 'Souveraineté des données',
-    texte:
-      'Les données de santé appartiennent aux personnes qui les produisent. Elles ne sont ni un produit, ni un levier d\u2019influence, ni une monnaie d\u2019échange. Ce principe est gardé par le Comité d\u2019Éthique.',
-  },
-  {
-    titre: 'Accessibilité structurelle',
-    texte:
-      'Le modèle Robin Hood est inscrit dans les statuts : le premium finance l\u2019accès. La santé préventive coordonnée ne peut pas rester un privilège réservé à ceux qui en ont les moyens.',
-  },
-  {
-    titre: 'Transparence radicale',
-    texte:
-      'Chaque personne accompagnée est informée du niveau de preuve des approches proposées, sans jugement. La confiance se construit sur la transparence, pas sur l\u2019opacité.',
-  },
-  {
-    titre: 'Indépendance de la Fondation',
-    texte:
-      'ARCHIPEL Foundation ne vend rien. Elle ne dispose d\u2019aucun intérêt commercial. C\u2019est cette indépendance qui fait d\u2019elle un tiers de confiance légitime pour garder la mission.',
-  },
-  {
-    titre: 'Coordination, pas pratique',
-    texte:
-      'ARCHIPEL coordonne les parcours de santé. Iris informe, les Sherpas accompagnent, La Guilde intervient. Aucun d\u2019entre eux ne pratique la médecine. Le rôle est structurel, pas clinique.',
-  },
-  {
-    titre: 'Pérennité',
-    texte:
-      'ARCHIPEL Foundation est construite pour survivre à ses fondateurs. Chaque rôle a un titulaire et un relais identifié. Le sens est inscrit dans des documents qui survivent à l\u2019absence de leur auteur.',
-  },
+const principles = [
+  { id: '01', title: 'SANTÉ CO-CRÉÉE', text: "La santé n'est pas un service que l'on reçoit. C'est un processus que l'on co-construit avec les praticiens, les outils, ressources et services, et la communauté. La personne n'est jamais spectatrice de sa propre santé." },
+  { id: '02', title: 'COORDINATION INTÉGRATIVE', text: "ARCHIPEL relie ce que le système fragmente. Elle coordonne, sans se substituer, les approches conventionnelles et complémentaires autour d'une vision unifiée de la personne." },
+  { id: '03', title: 'HUMANITÉ CHALEUREUSE', text: "La technologie amplifie. Elle ne remplace pas. Chaque interaction ARCHIPEL, qu'elle implique Iris, un Sherpa ou un praticien de La Guilde, est conçue pour être humaine, digne et respectueuse." },
+  { id: '04', title: 'RIGUEUR SCIENTIFIQUE', text: "ARCHIPEL ne promeut aucune approche sans base de preuve suffisante. Elle distingue rigoureusement données factuelles, estimations publiées et analyses qualitatives. L'opinion n'est jamais présentée comme un fait." },
+  { id: '05', title: 'PROPRIÉTÉ DES DONNÉES', text: "Les données de santé appartiennent à la personne, et à elle seule. ARCHIPEL en est le gardien temporaire, jamais le propriétaire. Aucune exploitation commerciale de données individuelles n'est autorisée." },
+  { id: '06', title: 'ACCESSIBILITÉ UNIVERSELLE', text: "La santé de qualité ne peut pas être un privilège. Le modèle économique d'ARCHIPEL, dans lequel le premium finance l'accessibilité, est une conséquence directe de ce principe, pas une posture marketing." },
+  { id: '07', title: 'SANTÉ COMME BIEN COMMUN', text: "La santé est un bien commun, pas un marché. ARCHIPEL FOUNDATION agit en fondation de service : ses excédents sont réinvestis dans la mission, dans la recherche, dans l'accessibilité." },
+  { id: '08', title: 'CONSTRUCTIVITÉ POSITIVE', text: "ARCHIPEL augmente l'écosystème de santé. Elle ne le critique pas. Elle ne concurrence pas : elle complète, elle relie, elle enrichit. Chaque partenariat est pensé comme un levier multiplicateur, jamais comme une substitution." },
+  { id: '09', title: 'RYTHMES DU VIVANT', text: "La santé humaine s'inscrit dans les rythmes de la nature. ARCHIPEL reconnaît que les cycles circadiens, les saisons, et la relation au vivant sont des déterminants de santé au même titre que les comportements individuels. Toute approche qui déconnecte la personne de son environnement naturel est structurellement incomplète. ARCHIPEL conçoit ses parcours, ses outils et ses recommandations en cohérence avec les rythmes du vivant, pas contre eux." },
 ];
 
 export default function NeufPrincipesPage() {
@@ -66,63 +31,59 @@ export default function NeufPrincipesPage() {
             aria-label="Fil d'Ariane"
             className="mb-8 font-label text-caption uppercase tracking-[0.08em] text-sand/60"
           >
-            <a href="/" className="hover:text-sand transition-colors">
-              Accueil
-            </a>
-            <span className="mx-2" aria-hidden="true">/</span>
-            <a href="/mission" className="hover:text-sand transition-colors">
-              Mission
-            </a>
-            <span className="mx-2" aria-hidden="true">/</span>
-            <span className="text-sand">9 Principes</span>
+            <Link
+              href="/mission"
+              className="hover:text-sand transition-colors"
+            >
+              &larr; Notre Mission
+            </Link>
           </nav>
 
           <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-4 block">
-            Charte Fondatrice
+            Charte Fondatrice v2.0
           </span>
-          <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen">
+          <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">
             Les 9 Principes Fondateurs
           </h1>
+          <p className="font-body text-body leading-[1.6] text-linen/70 max-w-2xl">
+            Ces neuf engagements définissent ce qu&apos;ARCHIPEL s&apos;oblige
+            à faire et ce à quoi elle renonce.
+          </p>
         </div>
       </Section>
 
       {/* PRINCIPES */}
       <Section variant="linen" padding="default">
-        <div className="max-w-3xl mx-auto">
-          <p className="font-body text-body leading-[1.6] text-slate_f/80 mb-12">
-            Ces neuf principes sont inscrits dans la Charte Fondatrice
-            d&apos;ARCHIPEL Foundation. Ils ne sont pas des intentions. Ce sont
-            des engagements irréductibles, publics et opposables, gardés par le
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+          {principles.map((p) => (
+            <article key={p.id} className="flex flex-col">
+              <span className="font-label text-[2.5rem] leading-none text-sand/50 mb-3">
+                {p.id}
+              </span>
+              <h2 className="font-heading text-h3 uppercase tracking-[-0.02em] text-slate_f mb-3">
+                {p.title}
+              </h2>
+              <p className="font-body text-body leading-relaxed text-slate_f/75">
+                {p.text}
+              </p>
+            </article>
+          ))}
+        </div>
+      </Section>
+
+      {/* FOOTER CTA */}
+      <Section variant="slate" padding="compact">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="font-body text-body italic leading-[1.6] text-linen/70 mb-8">
+            La Charte Fondatrice est publique, opposable, et gardée par le
             Comité d&apos;Éthique.
           </p>
-
-          <div className="space-y-8">
-            {PRINCIPES.map((p, i) => (
-              <div
-                key={p.titre}
-                className="bg-slate_f text-linen rounded-lg p-6 lg:p-8"
-              >
-                <div className="flex items-baseline gap-4 mb-3">
-                  <span className="font-heading text-h2 tracking-[-0.02em] text-sand">
-                    0{i + 1}
-                  </span>
-                  <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
-                    {p.titre}
-                  </h2>
-                </div>
-                <p className="font-body text-body-sm leading-[1.6] text-linen/80">
-                  {p.texte}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-12 flex flex-col sm:flex-row items-center gap-4">
-            <Button variant="primary" href="/mission">
-              Retour à Notre Mission
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Button variant="primary" href="/gouvernance/charte">
+              Lire la Charte intégrale
             </Button>
-            <Button variant="outline-light" href="/gouvernance/charte">
-              Lire la Charte Fondatrice
+            <Button variant="secondary" href="/mission">
+              Retour à Notre Mission
             </Button>
           </div>
         </div>
