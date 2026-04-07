@@ -139,7 +139,7 @@ export default function FondementsPage() {
             </div>
             <p className="font-body text-caption text-steel-blue mt-4 italic">
               Sforzo, G.A. et al. (2018). Compendium of the Health and Wellness
-              Coaching Literature. BMC Health Services Research.
+              Coaching Literature. BMC Public Health.
             </p>
           </div>
 
