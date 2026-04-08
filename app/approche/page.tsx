@@ -144,7 +144,7 @@ export default function ApprochePage() {
           <div className="bg-linen rounded-lg p-6 lg:p-8 flex flex-col">
             <img src="/images/icon-guilde.svg" alt="La Guilde" className="w-20 h-20 mx-auto mb-4" />
             <h3 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-3">
-              <span className="font-bold">La Guilde</span><br />la coordination
+              <span className="font-bold">La Guilde</span><br />les praticiens engagés
             </h3>
             <p className="font-body text-body-sm text-slate_f/70 mb-6 flex-1">
               Un réseau de praticiens certifiés, coordonnés par Iris et les
