@@ -236,7 +236,7 @@ export default function ApprochePage() {
 
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-6">
             <a
-              href="/approche/fondements"
+              href="/sources"
               className="font-label text-label uppercase tracking-[0.08em] text-sand border border-sand/50 rounded-md px-4 py-2 hover:bg-sand/10 transition-colors"
             >
               Fondements Scientifiques &rarr;
