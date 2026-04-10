@@ -38,7 +38,7 @@ export default function SourcesPage() {
       {/* Bloc intro avant témoignage */}
       <Section variant="linen" padding="default">
         <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-4">
-          <p className="font-label text-[0.65rem] uppercase tracking-[0.15em] text-sand mb-2">
+          <p className="font-label text-caption uppercase tracking-[0.12em] text-sand mb-4">
             POINT DE DÉPART
           </p>
           <h2 className="font-heading text-h3 tracking-[-0.02em] text-slate_f">
@@ -98,7 +98,7 @@ export default function SourcesPage() {
       <Section variant="slate" padding="default">
         <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-12">
           <div>
-            <p className="font-label text-[0.65rem] uppercase tracking-[0.15em] text-sand mb-4">
+            <p className="font-label text-caption uppercase tracking-[0.12em] text-sand mb-4">
               NOS FONDEMENTS
             </p>
             <p className="font-body text-body leading-[1.7] text-linen/70 italic">
@@ -121,7 +121,7 @@ export default function SourcesPage() {
               ce qu&apos;on fait ensuite.
             </p>
             <div>
-              <Button variant="outline-light" href="/sources/salutogenese">
+              <Button variant="secondary" href="/sources/salutogenese">
                 En savoir plus
               </Button>
             </div>
@@ -140,7 +140,7 @@ export default function SourcesPage() {
               al., Science, janvier 2026).
             </p>
             <div>
-              <Button variant="outline-light" href="/sources/sens-de-coherence">
+              <Button variant="secondary" href="/sources/sens-de-coherence">
                 En savoir plus
               </Button>
             </div>
@@ -157,7 +157,7 @@ export default function SourcesPage() {
               quelqu&apos;un qui connaît votre histoire.
             </p>
             <div>
-              <Button variant="outline-light" href="/sources/health-coaching">
+              <Button variant="secondary" href="/sources/health-coaching">
                 En savoir plus
               </Button>
             </div>
@@ -174,7 +174,7 @@ export default function SourcesPage() {
               ça. Nos Sherpas le cultivent.
             </p>
             <div>
-              <Button variant="outline-light" href="/sources/phronesis">
+              <Button variant="secondary" href="/sources/phronesis">
                 En savoir plus
               </Button>
             </div>
