@@ -14,19 +14,19 @@ export default function SourcesPage() {
   return (
     <>
       {/* Hero */}
-      <div className="relative overflow-hidden h-[75vh] flex items-center" style={{backgroundColor: '#1A2B35'}}>
+      <div className="relative overflow-hidden h-[60vh] flex items-center" style={{backgroundColor: '#1A2B35'}}>
         <img
           src="/images/hero-sources.webp"
           alt="Source d'eau vive dans un sous-bois"
-          className="absolute inset-0 w-full h-full object-cover"
-          style={{opacity: 0.45}}
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          style={{opacity: 0.50}}
         />
-        <div className="absolute inset-0" style={{backgroundColor: 'rgba(26,43,53,0.40)'}} />
+        <div className="absolute inset-0" style={{backgroundColor: 'rgba(26,43,53,0.45)'}} />
         <div className="relative z-10 w-full max-w-3xl mx-auto px-6 lg:px-8 text-center">
-          <p className="font-label text-caption uppercase tracking-[0.12em] text-sand mb-6">
+          <p className="font-label text-[0.65rem] uppercase tracking-[0.15em] text-sand mb-4">
             NOS SOURCES
           </p>
-          <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">
+          <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-4">
             Ce qui nous fonde
           </h1>
           <p className="font-body text-h4 text-linen/70">
@@ -35,8 +35,28 @@ export default function SourcesPage() {
         </div>
       </div>
 
-      {/* Bloc témoignage */}
+      {/* Bloc intro avant témoignage */}
       <Section variant="linen" padding="default">
+        <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-4">
+          <p className="font-label text-[0.65rem] uppercase tracking-[0.15em] text-sand mb-2">
+            POINT DE DÉPART
+          </p>
+          <h2 className="font-heading text-h3 tracking-[-0.02em] text-slate_f">
+            Une reconstruction avant une fondation.
+          </h2>
+          <p className="font-body text-body leading-[1.7] text-slate_f/80">
+            ARCHIPEL n&apos;est pas né d&apos;une théorie. Il est né
+            d&apos;une expérience vécue puis d&apos;une découverte : ce que
+            ce parcours avait construit sans le savoir avait un nom, des
+            preuves, et une cohérence que des décennies de recherche
+            confirmaient. Ce qui suit est d&apos;abord un témoignage.
+            Puis une démonstration.
+          </p>
+        </div>
+      </Section>
+
+      {/* Bloc témoignage */}
+      <Section variant="linen" padding="compact">
         <div className="max-w-2xl mx-auto px-6 lg:px-8">
           <blockquote className="bg-[#E8E2D8] rounded-lg px-8 py-10 space-y-4 border-l-4 border-sand/60">
             <p className="font-body text-body leading-[1.7] text-slate_f/90 italic">
@@ -74,38 +94,20 @@ export default function SourcesPage() {
         </div>
       </Section>
 
-      {/* Bloc intro avant témoignage */}
-      <Section variant="linen" padding="compact">
-        <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-4">
-          <h2 className="font-heading text-h3 tracking-[-0.02em] text-slate_f">
-            Une reconstruction avant une fondation.
-          </h2>
-          <p className="font-body text-body leading-[1.7] text-slate_f/80">
-            ARCHIPEL n&apos;est pas né d&apos;une théorie. Il est né
-            d&apos;une expérience vécue puis d&apos;une découverte : ce que
-            ce parcours avait construit sans le savoir avait un nom, des
-            preuves, et une cohérence que des décennies de recherche
-            confirmaient. Ce qui suit est d&apos;abord un témoignage.
-            Puis une démonstration.
-          </p>
-        </div>
-      </Section>
-
-      {/* Liaison */}
-      <Section variant="linen" padding="compact">
-        <div className="max-w-2xl mx-auto px-6 lg:px-8">
-          <p className="font-body text-body leading-[1.7] text-slate_f/80 italic">
-            Ces quatre cadres scientifiques et philosophiques n&apos;ont
-            pas été choisis pour justifier ARCHIPEL. Ils ont été reconnus,
-            après coup, comme ce qui décrivait exactement ce qui
-            s&apos;était passé, et ce qu&apos;il fallait construire.
-          </p>
-        </div>
-      </Section>
-
-      {/* Les 4 sources */}
+      {/* Liaison + 4 sources */}
       <Section variant="slate" padding="default">
         <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-12">
+          <div>
+            <p className="font-label text-[0.65rem] uppercase tracking-[0.15em] text-sand mb-4">
+              NOS FONDEMENTS
+            </p>
+            <p className="font-body text-body leading-[1.7] text-linen/70 italic">
+              Ces quatre cadres scientifiques et philosophiques n&apos;ont
+              pas été choisis pour justifier ARCHIPEL. Ils ont été reconnus,
+              après coup, comme ce qui décrivait exactement ce qui
+              s&apos;était passé, et ce qu&apos;il fallait construire.
+            </p>
+          </div>
 
           <div className="space-y-4">
             <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
