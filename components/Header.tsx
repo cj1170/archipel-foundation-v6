@@ -45,7 +45,7 @@ export default function Header() {
   }, [mobileOpen]);
 
   const isActive = (path: string) => activePath === path;
-  const isVisionActive = activePath === '/mission' || activePath === '/approche';
+  const isVisionActive = activePath === '/mission' || activePath === '/sources' || activePath === '/approche';
 
   const handleDropdownEnter = () => {
     if (dropdownTimeout.current) clearTimeout(dropdownTimeout.current);
@@ -132,6 +132,20 @@ export default function Header() {
                 </span>
                 <span className="block font-body text-body-sm normal-case tracking-normal text-sand mt-0.5">
                   Le pourquoi
+                </span>
+              </Link>
+              <Link
+                href="/sources"
+                role="menuitem"
+                className={`block px-5 py-3 transition-colors duration-base hover:bg-steel-blue/20 ${
+                  isActive('/sources') ? 'bg-steel-blue/10' : ''
+                }`}
+              >
+                <span className="block text-label font-label uppercase tracking-[0.08em]">
+                  Nos Sources
+                </span>
+                <span className="block font-body text-body-sm normal-case tracking-normal text-sand mt-0.5">
+                  Le pourquoi scientifique
                 </span>
               </Link>
               <Link
