@@ -20,7 +20,7 @@ export default function Home() {
           SECTION 1 — HERO
           ═══════════════════════════════════════════ */}
       <section
-        className="min-h-[75vh] flex items-center relative overflow-hidden bg-slate_f text-linen pt-32 pb-16 lg:pt-40 lg:pb-24"
+        className="h-[75vh] flex items-center relative overflow-hidden bg-slate_f text-linen pt-32 pb-16 lg:pt-40 lg:pb-24"
       >
         <img src="/images/hero-accueil.webp" alt="" aria-hidden="true" className="absolute inset-0 w-full h-full object-cover opacity-60" />
         <div className="absolute inset-0 bg-slate_f/25" aria-hidden="true" />
