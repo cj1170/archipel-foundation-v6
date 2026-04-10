@@ -38,7 +38,7 @@ export default function SourcesPage() {
       {/* Bloc intro avant témoignage */}
       <Section variant="linen" padding="default">
         <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-4">
-          <p className="font-label text-caption uppercase tracking-[0.12em] text-sand mb-4">
+          <p className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-4 block">
             POINT DE DÉPART
           </p>
           <h2 className="font-heading text-h3 tracking-[-0.02em] text-slate_f">
@@ -98,7 +98,7 @@ export default function SourcesPage() {
       <Section variant="slate" padding="default">
         <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-12">
           <div>
-            <p className="font-label text-caption uppercase tracking-[0.12em] text-sand mb-4">
+            <p className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-4 block">
               NOS FONDEMENTS
             </p>
             <p className="font-body text-body leading-[1.7] text-linen/70 italic">
