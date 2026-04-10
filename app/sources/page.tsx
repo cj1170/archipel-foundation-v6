@@ -36,7 +36,7 @@ export default function SourcesPage() {
       </div>
 
       {/* Bloc intro avant témoignage */}
-      <Section variant="linen" padding="compact">
+      <Section variant="linen" padding="compact" className="pb-4">
         <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-4">
           <p className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-4 block">
             POINT DE DÉPART
@@ -56,7 +56,7 @@ export default function SourcesPage() {
       </Section>
 
       {/* Bloc témoignage */}
-      <Section variant="linen" padding="compact">
+      <Section variant="linen" padding="compact" className="pt-4">
         <div className="max-w-2xl mx-auto px-6 lg:px-8">
           <blockquote className="bg-[#E8E2D8] rounded-lg px-8 py-10 space-y-4 border-l-4 border-sand/60">
             <p className="font-body text-body leading-[1.7] text-slate_f/90 italic">
