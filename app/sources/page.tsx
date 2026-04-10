@@ -14,7 +14,7 @@ export default function SourcesPage() {
   return (
     <>
       {/* Hero */}
-      <div className="relative overflow-hidden h-[75vh] flex items-end pb-16 lg:pb-24" style={{backgroundColor: '#1A2B35'}}>
+      <div className="relative overflow-hidden h-[75vh] flex items-center" style={{backgroundColor: '#1A2B35'}}>
         <img
           src="/images/hero-sources.webp"
           alt="Source d'eau vive dans un sous-bois"
