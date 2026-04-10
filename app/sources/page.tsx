@@ -23,15 +23,14 @@ export default function SourcesPage() {
         />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(26,43,53,0.40)'}} />
         <div className="relative z-10 w-full max-w-3xl mx-auto px-6 lg:px-8 text-center">
-          <p className="font-label text-caption uppercase tracking-[0.12em] text-sand mb-4">
-            ARCHIPEL Foundation
+          <p className="font-label text-caption uppercase tracking-[0.12em] text-sand mb-6">
+            NOS SOURCES
           </p>
-          <h1 className="font-heading text-h1 tracking-[-0.02em] text-linen mb-4">
-            Nos Sources
+          <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-6">
+            Ce qui nous fonde
           </h1>
-          <p className="font-body text-body-lg leading-[1.6] text-linen/80">
-            Les fondements scientifiques et philosophiques d&apos;ARCHIPEL.
-            Ce qui fonde ce que nous faisons, et pourquoi.
+          <p className="font-body text-h4 text-linen/70">
+            Les origines scientifiques et philosophiques d&apos;ARCHIPEL.
           </p>
         </div>
       </div>
@@ -75,19 +74,31 @@ export default function SourcesPage() {
         </div>
       </Section>
 
-      {/* Bloc intro */}
+      {/* Bloc intro avant témoignage */}
       <Section variant="linen" padding="compact">
-        <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-4 font-body text-body leading-[1.7] text-slate_f/80">
-          <p>
-            Vous avez déjà eu ce sentiment : vous avez consulté, vous avez suivi
-            les conseils, vous avez fait ce qu&apos;il fallait. Et pourtant
-            quelque chose ne va toujours pas. Pas assez pour alarmer votre
-            médecin. Pas assez pour mettre un nom dessus. Mais assez pour que
-            vous le sentiez chaque matin.
+        <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-4">
+          <h2 className="font-heading text-h3 tracking-[-0.02em] text-slate_f">
+            Une reconstruction avant une fondation.
+          </h2>
+          <p className="font-body text-body leading-[1.7] text-slate_f/80">
+            ARCHIPEL n&apos;est pas né d&apos;une théorie. Il est né
+            d&apos;une expérience vécue puis d&apos;une découverte : ce que
+            ce parcours avait construit sans le savoir avait un nom, des
+            preuves, et une cohérence que des décennies de recherche
+            confirmaient. Ce qui suit est d&apos;abord un témoignage.
+            Puis une démonstration.
           </p>
-          <p>
-            Ce n&apos;est pas dans votre tête. C&apos;est dans les angles morts
-            du système.
+        </div>
+      </Section>
+
+      {/* Liaison */}
+      <Section variant="linen" padding="compact">
+        <div className="max-w-2xl mx-auto px-6 lg:px-8">
+          <p className="font-body text-body leading-[1.7] text-slate_f/80 italic">
+            Ces quatre cadres scientifiques et philosophiques n&apos;ont
+            pas été choisis pour justifier ARCHIPEL. Ils ont été reconnus,
+            après coup, comme ce qui décrivait exactement ce qui
+            s&apos;était passé, et ce qu&apos;il fallait construire.
           </p>
         </div>
       </Section>
