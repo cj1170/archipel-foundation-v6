@@ -31,7 +31,7 @@ const AVANTAGES = [
   {
     title: 'Personnes engagées',
     description:
-      'Les personnes orientées vers La Guilde sont déjà engagées dans un parcours de santé coordonné. Pas de patients isolés cherchant un rendez-vous ponctuel. Pas de tourisme médical.',
+      'Les personnes orientées vers La Guilde sont déjà engagées dans un parcours de santé coordonné. Pas de personnes cherchant un rendez-vous ponctuel. Pas de tourisme médical.',
   },
 ];
 

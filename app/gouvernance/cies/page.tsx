@@ -121,7 +121,7 @@ export default function CiesPage() {
                 9 membres indépendants : experts en santé publique, spécialistes
                 médecine conventionnelle et réglementée, experts approches
                 innovantes, méthodologiste/statisticien/économiste, usagers et
-                patients experts.
+                personnes expertes du vécu.
               </p>
               <p>
                 Déclaration Publique d&apos;Intérêts obligatoire, conforme HAS.

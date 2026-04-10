@@ -5,7 +5,7 @@ import Button from '@/components/Button';
 export const metadata: Metadata = {
   title: 'Notre Mission',
   description:
-    'ARCHIPEL construit un écosystème de santé préventive fondé sur la Salutogénèse. 5 axes : accessibilité, éducation, recherche, plaidoyer, souveraineté des données.',
+    'ARCHIPEL construit un écosystème de santé préventive fondé sur la Salutogénèse. 5 axes : accessibilité, éducation, recherche, plaidoyer, propriété des données.',
   openGraph: {
     images: [{ url: '/images/og-mission.jpg', width: 1200, height: 630 }],
   },
@@ -41,7 +41,7 @@ const AXES: Axe[] = [
       'Une fondation qui influence les systèmes doit accompagner leur transformation. ARCHIPEL porte notamment des positions sur l\u2019intégration de la coordination préventive dans les politiques de remboursement et la validation et la reconnaissance d\u2019approches complémentaires.',
   },
   {
-    title: 'Souveraineté des données',
+    title: 'Propriété des données',
     description:
       'La Santé est un Bien Commun. Aussi les données de santé doivent rester la propriété des personnes qui les produisent et non devenir un pouvoir d\u2019influence au service de la plateforme, des partenaires ou des financeurs. Ce n\u2019est pas une clause de conformité. C\u2019est une position de fond.',
   },
@@ -93,7 +93,7 @@ export default function MissionPage() {
           <p className="font-body text-body leading-[1.6] text-slate_f/80">
             Ces cinq axes forment un tout. L&apos;accessibilité sans recherche
             reste une promesse sans fondement. La recherche sans plaidoyer reste
-            sans effet systémique. Et aucun ne tient sans la souveraineté des
+            sans effet systémique. Et aucun ne tient sans la propriété des
             données.
           </p>
         </div>

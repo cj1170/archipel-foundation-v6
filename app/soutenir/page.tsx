@@ -101,7 +101,7 @@ export default function SoutenirPage() {
               <p>
                 Chaque contribution, quelle que soit sa forme, finance
                 directement les cinq axes de mission : accessibilité, éducation,
-                recherche, plaidoyer, souveraineté des données.
+                recherche, plaidoyer, propriété des données.
               </p>
               <p>
                 Un don permet de financer l&apos;accès au programme pour une
@@ -113,7 +113,7 @@ export default function SoutenirPage() {
 
           {/* Visuel — 40% */}
           <div className="lg:col-span-2 flex items-center justify-center">
-            <img src="/images/schema-don-impact.svg" alt="Votre don finance les 5 axes de mission — Accessibilité, Éducation, Recherche, Plaidoyer, Souveraineté" className="w-full max-w-2xl mx-auto" />
+            <img src="/images/schema-don-impact.svg" alt="Votre don finance les 5 axes de mission — Accessibilité, Éducation, Recherche, Plaidoyer, Propriété des données" className="w-full max-w-2xl mx-auto" />
           </div>
         </div>
       </Section>

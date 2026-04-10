@@ -106,9 +106,12 @@ export default function GouvernancePage() {
             <span className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-steel-blue mb-4 block">
               Document fondateur
             </span>
-            <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-6">
+            <h2 className="font-heading text-h2 tracking-[-0.02em] text-slate_f mb-2">
               La Charte Fondatrice
             </h2>
+            <p className="font-body text-caption text-sand/70 mb-6">
+              avril 2026
+            </p>
             <div className="space-y-4 font-body text-body leading-[1.6] text-slate_f/80">
               <p>
                 La Charte Fondatrice est le document de rang suprême

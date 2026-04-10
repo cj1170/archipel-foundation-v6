@@ -143,6 +143,43 @@ export default function FondementsPage() {
             </p>
           </div>
 
+          {/* La Phronésis */}
+          <div>
+            <h2 className="font-heading text-h3 tracking-[-0.02em] text-slate_f mb-4">
+              La Phronésis. Le jugement situé
+            </h2>
+            <div className="font-body text-body leading-[1.6] text-slate_f/80 space-y-4">
+              <p>
+                ARCHIPEL repose sur trois piliers intellectuels. La Salutogénèse
+                identifie ce qui crée la santé. La PNIE établit les liens entre
+                corps et psyché. La phronésis, sagesse pratique aristotélicienne,
+                fonde la posture de jugement que le modèle exige de ses acteurs
+                humains.
+              </p>
+              <p>
+                Aristote distingue trois formes de savoir. L&apos;épistèmè est
+                le savoir théorique, universel. La technè est le savoir-faire
+                technique, reproductible. La phronésis est la sagesse pratique,
+                contextuelle, irréductible à des règles : la capacité de
+                délibérer correctement sur ce qui est bon pour une personne
+                singulière, dans une situation singulière.
+              </p>
+              <p>
+                Iris opère dans le registre du savoir et de la technique. Le
+                Sherpa opère dans le registre du jugement situé. Ce n&apos;est
+                pas une limitation d&apos;Iris : c&apos;est sa conception.
+                Décider ce qui est juste pour vous, dans votre vie, avec vos
+                contraintes et vos désirs, demande un jugement humain, formé,
+                engagé. C&apos;est ce que nos Sherpas cultivent.
+              </p>
+            </div>
+            <p className="font-body text-caption text-steel-blue mt-4 italic">
+              Aristote, Éthique à Nicomaque, Livre VI. Pellegrino, E.D. &amp;
+              Thomasma, D.C. (1993). The Virtues in Medical Practice. Oxford
+              University Press.
+            </p>
+          </div>
+
           <div className="pt-4">
             <Button variant="outline-light" href="/approche">
               Retour à Notre Approche
