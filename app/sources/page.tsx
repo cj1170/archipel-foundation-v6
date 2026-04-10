@@ -14,33 +14,32 @@ export default function SourcesPage() {
   return (
     <>
       {/* Hero */}
-      <Section variant="slate" padding="hero">
-        <div className="relative overflow-hidden min-h-[75vh] flex items-center">
-          <img
-            src="/images/hero-sources.webp"
-            alt="Source d'eau vive dans un sous-bois"
-            className="absolute inset-0 w-full h-full object-cover opacity-40"
-          />
-          <div className="absolute inset-0 bg-slate_f/35" />
-          <div className="relative z-10 max-w-3xl mx-auto px-6 lg:px-8 text-center">
-            <p className="font-label text-caption uppercase tracking-[0.12em] text-sand mb-6">
-              ARCHIPEL Foundation
-            </p>
-            <h1 className="font-heading text-h1 tracking-[-0.02em] text-linen mb-6">
-              Nos Sources
-            </h1>
-            <p className="font-body text-body-lg leading-[1.6] text-linen/80">
-              Les fondements scientifiques et philosophiques d&apos;ARCHIPEL.
-              Ce qui fonde ce que nous faisons, et pourquoi.
-            </p>
-          </div>
+      <div className="relative overflow-hidden min-h-[75vh] flex items-end pb-16 lg:pb-24" style={{backgroundColor: '#1A2B35'}}>
+        <img
+          src="/images/hero-sources.webp"
+          alt="Source d'eau vive dans un sous-bois"
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{opacity: 0.45}}
+        />
+        <div className="absolute inset-0" style={{backgroundColor: 'rgba(26,43,53,0.40)'}} />
+        <div className="relative z-10 w-full max-w-3xl mx-auto px-6 lg:px-8 text-center">
+          <p className="font-label text-caption uppercase tracking-[0.12em] text-sand mb-4">
+            ARCHIPEL Foundation
+          </p>
+          <h1 className="font-heading text-h1 tracking-[-0.02em] text-linen mb-4">
+            Nos Sources
+          </h1>
+          <p className="font-body text-body-lg leading-[1.6] text-linen/80">
+            Les fondements scientifiques et philosophiques d&apos;ARCHIPEL.
+            Ce qui fonde ce que nous faisons, et pourquoi.
+          </p>
         </div>
-      </Section>
+      </div>
 
       {/* Bloc témoignage */}
       <Section variant="linen" padding="default">
         <div className="max-w-2xl mx-auto px-6 lg:px-8">
-          <blockquote className="bg-[#F2EDE6] rounded-lg px-8 py-10 space-y-4">
+          <blockquote className="bg-[#E8E2D8] rounded-lg px-8 py-10 space-y-4 border-l-4 border-sand/60">
             <p className="font-body text-body leading-[1.7] text-slate_f/90 italic">
               Pendant 35 ans, j&apos;ai consulté des dizaines de médecins.
               Chacun faisait bien son travail. Aucun ne voyait l&apos;ensemble.
@@ -95,79 +94,79 @@ export default function SourcesPage() {
 
       {/* Les 4 sources */}
       <Section variant="slate" padding="default">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-slate_f/40 rounded-lg p-8 space-y-4 flex flex-col">
-              <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
-                La question qu&apos;on ne pose jamais
-              </h2>
-              <p className="font-body text-body leading-[1.7] text-linen/80 flex-1">
-                En 1979, un chercheur a retourné la question fondamentale de
-                la médecine. Pas &quot;qu&apos;est-ce qui rend malade ?&quot;
-                mais &quot;qu&apos;est-ce qui crée la santé ?&quot; Cette
-                inversion reste largement ignorée. Elle change pourtant tout
-                ce qu&apos;on fait ensuite.
-              </p>
-              <div>
-                <Button variant="outline-light" href="/sources/salutogenese">
-                  En savoir plus
-                </Button>
-              </div>
-            </div>
+        <div className="max-w-2xl mx-auto px-6 lg:px-8 space-y-12">
 
-            <div className="bg-slate_f/40 rounded-lg p-8 space-y-4 flex flex-col">
-              <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
-                Ce qui tient les gens debout
-              </h2>
-              <p className="font-body text-body leading-[1.7] text-linen/80 flex-1">
-                Comprendre ce qui arrive. Se sentir capable d&apos;y faire
-                face. Trouver que ça vaut la peine de s&apos;engager. Trois
-                capacités documentées qui prédisent la santé mieux que
-                beaucoup d&apos;analyses biologiques. Et 45 à 50% des
-                facteurs de longévité qui restent modifiables (Shenhar et
-                al., Science, janvier 2026).
-              </p>
-              <div>
-                <Button variant="outline-light" href="/sources/sens-de-coherence">
-                  En savoir plus
-                </Button>
-              </div>
-            </div>
-
-            <div className="bg-slate_f/40 rounded-lg p-8 space-y-4 flex flex-col">
-              <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
-                Pourquoi l&apos;information seule ne suffit pas
-              </h2>
-              <p className="font-body text-body leading-[1.7] text-linen/80 flex-1">
-                Vous savez ce qu&apos;il faudrait faire. Vous le savez depuis
-                longtemps. Ce qui manque, ce n&apos;est pas l&apos;information.
-                C&apos;est l&apos;espace pour construire le changement, avec
-                quelqu&apos;un qui connaît votre histoire.
-              </p>
-              <div>
-                <Button variant="outline-light" href="/sources/health-coaching">
-                  En savoir plus
-                </Button>
-              </div>
-            </div>
-
-            <div className="bg-slate_f/40 rounded-lg p-8 space-y-4 flex flex-col">
-              <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
-                Ce qu&apos;une IA ne peut pas faire à votre place
-              </h2>
-              <p className="font-body text-body leading-[1.7] text-linen/80 flex-1">
-                Iris peut beaucoup. Mais décider ce qui est juste pour vous,
-                dans votre vie, avec ce que vous portez sans le dire, cela
-                demande autre chose que du savoir. Aristote avait un mot pour
-                ça. Nos Sherpas le cultivent.
-              </p>
-              <div>
-                <Button variant="outline-light" href="/sources/phronesis">
-                  En savoir plus
-                </Button>
-              </div>
+          <div className="space-y-4">
+            <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
+              La question qu&apos;on ne pose jamais
+            </h2>
+            <p className="font-body text-body leading-[1.7] text-linen/80">
+              En 1979, un chercheur a retourné la question fondamentale de
+              la médecine. Pas &quot;qu&apos;est-ce qui rend malade ?&quot;
+              mais &quot;qu&apos;est-ce qui crée la santé ?&quot; Cette
+              inversion reste largement ignorée. Elle change pourtant tout
+              ce qu&apos;on fait ensuite.
+            </p>
+            <div>
+              <Button variant="outline-light" href="/sources/salutogenese">
+                En savoir plus
+              </Button>
             </div>
           </div>
+
+          <div className="space-y-4">
+            <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
+              Ce qui tient les gens debout
+            </h2>
+            <p className="font-body text-body leading-[1.7] text-linen/80">
+              Comprendre ce qui arrive. Se sentir capable d&apos;y faire
+              face. Trouver que ça vaut la peine de s&apos;engager. Trois
+              capacités documentées qui prédisent la santé mieux que
+              beaucoup d&apos;analyses biologiques. Et 45 à 50% des
+              facteurs de longévité qui restent modifiables (Shenhar et
+              al., Science, janvier 2026).
+            </p>
+            <div>
+              <Button variant="outline-light" href="/sources/sens-de-coherence">
+                En savoir plus
+              </Button>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
+              Pourquoi l&apos;information seule ne suffit pas
+            </h2>
+            <p className="font-body text-body leading-[1.7] text-linen/80">
+              Vous savez ce qu&apos;il faudrait faire. Vous le savez depuis
+              longtemps. Ce qui manque, ce n&apos;est pas l&apos;information.
+              C&apos;est l&apos;espace pour construire le changement, avec
+              quelqu&apos;un qui connaît votre histoire.
+            </p>
+            <div>
+              <Button variant="outline-light" href="/sources/health-coaching">
+                En savoir plus
+              </Button>
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="font-heading text-h3 tracking-[-0.02em] text-linen">
+              Ce qu&apos;une IA ne peut pas faire à votre place
+            </h2>
+            <p className="font-body text-body leading-[1.7] text-linen/80">
+              Iris peut beaucoup. Mais décider ce qui est juste pour vous,
+              dans votre vie, avec ce que vous portez sans le dire, cela
+              demande autre chose que du savoir. Aristote avait un mot pour
+              ça. Nos Sherpas le cultivent.
+            </p>
+            <div>
+              <Button variant="outline-light" href="/sources/phronesis">
+                En savoir plus
+              </Button>
+            </div>
+          </div>
+
         </div>
       </Section>
 
