@@ -130,9 +130,6 @@ export default function Header() {
                 <span className="block text-label font-label uppercase tracking-[0.08em]">
                   Notre Mission
                 </span>
-                <span className="block font-body text-body-sm normal-case tracking-normal text-sand mt-0.5">
-                  Le pourquoi
-                </span>
               </Link>
               <Link
                 href="/sources"
@@ -144,9 +141,6 @@ export default function Header() {
                 <span className="block text-label font-label uppercase tracking-[0.08em]">
                   Nos Sources
                 </span>
-                <span className="block font-body text-body-sm normal-case tracking-normal text-sand mt-0.5">
-                  Le pourquoi scientifique
-                </span>
               </Link>
               <Link
                 href="/approche"
@@ -157,9 +151,6 @@ export default function Header() {
               >
                 <span className="block text-label font-label uppercase tracking-[0.08em]">
                   Notre Approche
-                </span>
-                <span className="block font-body text-body-sm normal-case tracking-normal text-sand mt-0.5">
-                  Le comment
                 </span>
               </Link>
             </div>
