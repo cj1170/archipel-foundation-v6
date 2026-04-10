@@ -23,7 +23,7 @@ export default function SourcesPage() {
         />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(26,43,53,0.45)'}} />
         <div className="relative z-10 w-full max-w-3xl mx-auto px-6 lg:px-8 text-center">
-          <p className="font-label text-[0.65rem] uppercase tracking-[0.15em] text-sand mb-4">
+          <p className="font-label text-[1.25rem] uppercase tracking-[0.12em] text-sand mb-4 block">
             NOS SOURCES
           </p>
           <h1 className="font-heading text-h1 lg:text-hero tracking-[-0.02em] text-linen mb-4">
